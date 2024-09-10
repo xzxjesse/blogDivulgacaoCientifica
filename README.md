@@ -69,9 +69,9 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 #### **10/09 - Página Sobre**
 - Criar o repositório no GitHub. ✔️
 - Configurar SQL Server e tabelas.
-- Criar backlog de User Stories.
-- Desenvolver Figma da página Sobre.
-- Adicionar informações sobre o blog e os autores.
+- Criar backlog de User Stories da Sprint01. ✔️
+- Desenvolver Figma da página Sobre. ✔️
+- Adicionar informações sobre o blog. ✔️
 
 #### **11/09 - Feed de Artigos**
 - Desenvolver Figma da página Feed.
@@ -79,7 +79,8 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 
 #### **12/09 - Filtros**
 - Implementar filtro por categoria.
-- Implementar filtro por período de tempo.
+- Implementar filtro por palavra chave.
+- Implementar filtro por data.
 
 #### **13/09 - Formulário Sugestão de Tema**
 - Desenvolver Figma da página Sugestão de Tema.
@@ -90,6 +91,7 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 ### **Semana 2:**
 
 #### **16/09 - Formulário Sugestão de Artigo**
+- Criar backlog de User Stories da Sprint02.
 - Desenvolver Figma da página Sugestão de Artigo.
 - Adicionar campos de contato (nome e e-mail), título e conteúdo.
 - Armazenar sugestões no banco de dados.
@@ -117,6 +119,7 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 ### **Semana 3:**
 
 #### **23/09 - Publicação de Artigos**
+- Criar backlog de User Stories da Sprint03.
 - Desenvolver Figma da página de Publicação.
 - Adicionar campos de título e conteúdo.
 - Armazenar publicações no banco de dados.
