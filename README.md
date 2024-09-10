@@ -68,7 +68,7 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 
 #### **10/09 - Página Sobre**
 - Criar o repositório no GitHub. ✔️
-- Configurar SQL Server e tabelas.
+- Configurar SQL Server e tabelas. ✔️
 - Criar backlog de User Stories da Sprint01. ✔️
 - Desenvolver Figma da página Sobre. ✔️
 - Adicionar informações sobre o blog. ✔️
