@@ -59,6 +59,7 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 ---
 
 ## **Roteiro**
+[Trello de Gerenciamento de etapas](https://trello.com/invite/b/66df81376f95a28c3d95be36/ATTIc2a800e06ddbc3e3669f7e63b252fd0553F48520/projeto-final-net)
 
 ### **Semana 1:**
 
@@ -74,8 +75,8 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 - Adicionar informações sobre o blog. ✔️
 
 #### **11/09 - Feed de Artigos**
-- Desenvolver Figma da página Feed.
-- Conectar o feed ao banco de dados e listar artigos cronologicamente.
+- Desenvolver Figma da página Feed. ✔️
+- Conectar o feed ao banco de dados e listar artigos cronologicamente. ✔️
 
 #### **12/09 - Filtros**
 - Implementar filtro por categoria.

@@ -16,6 +16,8 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
 </head>
 <body>
     <form runat="server">
@@ -48,7 +50,6 @@
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Sobre</a></li>
-<%--                        adicionar o link--%>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Forms">Sua Voz na Ciência</a></li>
                     </ul>
                 </div>

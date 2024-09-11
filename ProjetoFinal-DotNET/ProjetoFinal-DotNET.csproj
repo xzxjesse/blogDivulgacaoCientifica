@@ -199,6 +199,9 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Dao\Config\DataSourceConfig.cs" />
+    <Compile Include="Dao\Domain\Artigo.cs" />
+    <Compile Include="Dao\Repository\Feed.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -210,6 +213,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\Feed.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -234,10 +238,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Dao\Config\" />
-    <Folder Include="Dao\Domain\" />
-    <Folder Include="Dao\Repository\" />
-    <Folder Include="Service\" />
     <Folder Include="Web\" />
   </ItemGroup>
   <ItemGroup>

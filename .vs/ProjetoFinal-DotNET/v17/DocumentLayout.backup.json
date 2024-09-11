@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jeeve\\Documents\\ProjFinalATOS\\blogDivulgacaoCientifica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projfinalatos\\blogdivulgacaocientifica\\projetofinal-dotnet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projfinalatos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\repository\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\repository\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projfinalatos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\domain\\artigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\domain\\artigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Feed.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\ProjFinalATOS\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\ProjFinalATOS\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T23:37:59.175Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -34,15 +51,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\ProjFinalATOS\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Web.config",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Web.config",
-              "ToolTip": "C:\\Users\\jeeve\\Documents\\ProjFinalATOS\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Web.config*",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\Web.config*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-10T23:15:32.639Z",
+              "DocumentIndex": 1,
+              "Title": "Artigo.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\ProjFinalATOS\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\ProjFinalATOS\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T23:38:02.231Z",
               "EditorCaption": ""
             }
           ]

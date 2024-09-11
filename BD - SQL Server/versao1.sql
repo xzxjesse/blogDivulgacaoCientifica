@@ -37,7 +37,7 @@ GO
 -- Artigos
 CREATE TABLE Artigos (
     id_artigo INT PRIMARY KEY IDENTITY(1,1),
-    data DATETIME DEFAULT GETDATE(),
+    data DATETIME NOT NULL DEFAULT GETDATE(),
     titulo VARCHAR(255) NOT NULL,
     conteudo TEXT NOT NULL,
     nome VARCHAR(255) NOT NULL 
