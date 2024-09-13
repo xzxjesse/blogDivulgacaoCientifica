@@ -79,11 +79,11 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 - Conectar o feed ao banco de dados e listar artigos cronologicamente. ✔️
 
 #### **12/09 - Filtros**
-- Implementar filtro por categoria.
-- Implementar filtro por palavra chave.
-- Implementar filtro por data.
+- Implementar filtro por categoria. ✔️
+- Implementar filtro por palavra chave. ✔️
 
 #### **13/09 - Formulário Sugestão de Tema**
+- Implementar filtro por data.
 - Desenvolver Figma da página Sugestão de Tema.
 - Adicionar campos de contato (nome e e-mail).
 - Adicionar campo para conteúdo (descrição da sugestão).
