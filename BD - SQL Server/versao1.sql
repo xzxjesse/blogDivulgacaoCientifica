@@ -43,3 +43,12 @@ CREATE TABLE Artigos (
     nome VARCHAR(255) NOT NULL 
 );
 GO
+
+-- Correção artigos
+ALTER TABLE Artigos
+ADD id_categoria INT;
+GO
+
+ALTER TABLE Artigos
+ADD CONSTRAINT FK_Artigos_Categorias FOREIGN KEY (id_categoria) REFERENCES Categorias(id_categoria);
+GO

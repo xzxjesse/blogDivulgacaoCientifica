@@ -13,5 +13,8 @@ namespace ProjetoFinal_DotNET.Dao.Domain
         public string conteudo { get; set; }
         
         public string nome { get; set; }
+
+        public int id_categoria { get; set; }
+        public Categoria Categoria { get; set; }
     }
 }

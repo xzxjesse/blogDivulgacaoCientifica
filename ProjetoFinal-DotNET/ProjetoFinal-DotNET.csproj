@@ -201,6 +201,8 @@
     </Compile>
     <Compile Include="Dao\Config\DataSourceConfig.cs" />
     <Compile Include="Dao\Domain\Artigo.cs" />
+    <Compile Include="Dao\Domain\Categoria.cs" />
+    <Compile Include="Dao\Repository\Categoria.cs" />
     <Compile Include="Dao\Repository\Feed.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
