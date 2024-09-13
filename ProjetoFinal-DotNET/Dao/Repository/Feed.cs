@@ -8,12 +8,12 @@ namespace ProjetoFinal_DotNET.Dao.Repository
 {
     public class ArtigoRepository
     {
-        public List<Artigo> Pesquisa(string textoPesquisa, string nomeCategoria)
+        public List<Artigo> Pesquisa(string textoPesquisa, string nomeCategoria, DateTime? dataPublicacao)
         {
             string sql = @"SELECT a.*, c.nome_categoria 
-                   FROM Artigos a
-                   JOIN Categorias c ON a.id_categoria = c.id_categoria
-                   WHERE 1=1";
+                       FROM Artigos a
+                       JOIN Categorias c ON a.id_categoria = c.id_categoria
+                       WHERE 1=1";
 
             List<SqlParameter> parameters = new List<SqlParameter>();
 
@@ -27,6 +27,12 @@ namespace ProjetoFinal_DotNET.Dao.Repository
             {
                 sql += " AND c.nome_categoria LIKE @nomeCategoria";
                 parameters.Add(new SqlParameter("@nomeCategoria", "%" + nomeCategoria + "%"));
+            }
+
+            if (dataPublicacao.HasValue)
+            {
+                sql += " AND CAST(a.data AS DATE) = @dataPublicacao";
+                parameters.Add(new SqlParameter("@dataPublicacao", dataPublicacao.Value.Date));
             }
 
             sql += " ORDER BY a.data DESC";
@@ -46,11 +52,11 @@ namespace ProjetoFinal_DotNET.Dao.Repository
                     {
                         Artigo artigo = new Artigo
                         {
-                            id_artigo = dataReader.GetInt32(dataReader.GetOrdinal("id_artigo")),
-                            data = dataReader.GetDateTime(dataReader.GetOrdinal("data")),
-                            titulo = dataReader.GetString(dataReader.GetOrdinal("titulo")),
-                            conteudo = dataReader.GetString(dataReader.GetOrdinal("conteudo")),
-                            nome = dataReader.GetString(dataReader.GetOrdinal("nome_categoria"))
+                            Id_Artigo = dataReader.GetInt32(dataReader.GetOrdinal("id_artigo")),
+                            Data = dataReader.GetDateTime(dataReader.GetOrdinal("data")),
+                            Titulo = dataReader.GetString(dataReader.GetOrdinal("titulo")),
+                            Conteudo = dataReader.GetString(dataReader.GetOrdinal("conteudo")),
+                            Nome = dataReader.GetString(dataReader.GetOrdinal("nome_categoria"))
                         };
 
                         artigos.Add(artigo);

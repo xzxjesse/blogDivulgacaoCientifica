@@ -83,7 +83,7 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 - Implementar filtro por palavra chave. ✔️
 
 #### **13/09 - Formulário Sugestão de Tema**
-- Implementar filtro por data.
+- Implementar filtro por data. ✔️
 - Desenvolver Figma da página Sugestão de Tema.
 - Adicionar campos de contato (nome e e-mail).
 - Adicionar campo para conteúdo (descrição da sugestão).
@@ -112,27 +112,25 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 #### **19/09 - Autenticação**
 - Desenvolver Figma da página de Login.
 - Criar página de login com campos de e-mail e senha.
-
-#### **20/09 - Autenticação**
 - Desenvolver Figma da página de Cadastro.
 - Adicionar página de cadastro com nome, e-mail e senha.
 
-### **Semana 3:**
-
-#### **23/09 - Publicação de Artigos**
+#### **20/09 - Publicação de Artigos**
 - Criar backlog de User Stories da Sprint03.
 - Desenvolver Figma da página de Publicação.
 - Adicionar campos de título e conteúdo.
 - Armazenar publicações no banco de dados.
 
-#### **24/09 - Página de Meus Artigos**
+### **Semana 3:**
+
+#### **23/09 - Página de Meus Artigos**
 - Desenvolver Figma da página de Meus Artigos.
 - Listar artigos publicados pelo usuário conectado.
 
-#### **25/09 - Editar e Apagar Publicação**
+#### **24/09 - Editar e Apagar Publicação**
 - Implementar edição de artigos com campos pré-populados.
 - Implementar exclusão de artigos publicados pelo usuário.
 
-#### **26/09 - Preparo da Apresentação Final**
+#### **25/09 - Preparo da Apresentação Final**
 - Revisar o projeto.
 - Preparar documentação e demonstração para a apresentação final.

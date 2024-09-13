@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\repository\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\repository\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\service\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\service\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\repository\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\repository\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\dao\\domain\\artigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\domain\\artigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\dao\\repository\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\repository\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\domain\\artigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\domain\\artigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\dao\\domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\dao\\repository\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\repository\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\service\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\service\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,46 +62,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Artigo.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T23:38:02.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
               "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
               "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T02:13:09.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Default.aspx.cs",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Default.aspx.cs",
               "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Default.aspx.cs",
               "RelativeToolTip": "ProjetoFinal-DotNET\\Default.aspx.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAqwCkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T00:58:38.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Feed.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Service\\Feed.cs",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Service\\Feed.cs",
               "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Service\\Feed.cs",
               "RelativeToolTip": "ProjetoFinal-DotNET\\Service\\Feed.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T00:55:38.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Categoria.cs",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Domain\\Categoria.cs",
@@ -118,20 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "About.aspx",
-              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\About.aspx",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\About.aspx",
-              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\About.aspx",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\About.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-13T00:42:44.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Default.aspx",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Default.aspx",
@@ -144,28 +140,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Feed.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
               "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
               "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAADwv0cAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T23:37:59.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Artigo.cs",
-              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
-              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T23:38:02.231Z",
               "EditorCaption": ""
             }
           ]

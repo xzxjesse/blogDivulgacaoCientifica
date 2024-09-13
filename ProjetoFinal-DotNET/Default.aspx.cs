@@ -46,7 +46,7 @@ namespace ProjetoFinal_DotNET
             }
         }
 
-        protected void btnPesquisar_Click(object sender, EventArgs e)
+        protected void BtnPesquisar_Click(object sender, EventArgs e)
         {
             if (_artigoService == null)
             {
@@ -55,13 +55,38 @@ namespace ProjetoFinal_DotNET
 
             string textoPesquisa = txtTextoPesquisa.Text.Trim();
             string nomeCategoria = ddlCategoria.SelectedItem.Text;
+            DateTime? dataPublicacao = null;
+            if (!string.IsNullOrEmpty(txtDataPublicacao.Text))
+            {
+                DateTime tempData;
+                if (DateTime.TryParse(txtDataPublicacao.Text, out tempData))
+                {
+                    dataPublicacao = tempData.Date;
+                }
+                else
+                {
+                    lblMensagem.Text = "Data inválida. Por favor, insira uma data válida.";
+                    lblMensagem.Visible = true;
+                    return;
+                }
+            }
 
             if (ddlCategoria.SelectedIndex == 0)
             {
                 nomeCategoria = null;
             }
 
-            List<Artigo> artigos = _artigoService.PesquisarArtigos(textoPesquisa, nomeCategoria);
+            List<Artigo> artigos = _artigoService.PesquisarArtigos(textoPesquisa, nomeCategoria, dataPublicacao);
+
+            if (artigos.Count == 0)
+            {
+                lblMensagem.Text = "Nenhum artigo encontrado.";
+                lblMensagem.Visible = true;
+            }
+            else
+            {
+                lblMensagem.Visible = false;
+            }
 
             ArticlesRepeater.DataSource = artigos;
             ArticlesRepeater.DataBind();

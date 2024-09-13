@@ -7,7 +7,7 @@ namespace ProjetoFinal_DotNET.Dao.Domain
 {
     public class Categoria
     {
-        public int id_categoria { get; set; }
-        public string nome_categoria { get; set; }
+        public int Id_Categoria { get; set; }
+        public string Nome_Categoria { get; set; }
     }
 }

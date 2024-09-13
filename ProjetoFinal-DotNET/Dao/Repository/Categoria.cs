@@ -28,8 +28,8 @@ namespace ProjetoFinal_DotNET.Dao.Repository
                     {
                         Categoria categoria = new Categoria
                         {
-                            id_categoria = dataReader.GetInt32(dataReader.GetOrdinal("id_categoria")),
-                            nome_categoria = dataReader.GetString(dataReader.GetOrdinal("nome_categoria"))
+                            Id_Categoria = dataReader.GetInt32(dataReader.GetOrdinal("id_categoria")),
+                            Nome_Categoria = dataReader.GetString(dataReader.GetOrdinal("nome_categoria"))
                         };
 
                         categorias.Add(categoria);

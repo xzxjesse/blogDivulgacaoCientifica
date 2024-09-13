@@ -40,3 +40,35 @@ VALUES
 ('2024-04-20T16:45:00', 'O Telescópio James Webb: a nova era da astronomia', 
 'O Telescópio Espacial James Webb é um dos avanços mais significativos na observação astronômica desde o Hubble. Este artigo explora as capacidades do James Webb, incluindo sua habilidade de observar o universo em comprimentos de onda infravermelhos, o que permite visualizar objetos distantes e antigos que não são visíveis com telescópios ópticos. Discutimos como o Webb está ajudando a revelar novas informações sobre a formação das primeiras galáxias, estrelas e sistemas planetários, e como ele pode contribuir para a busca de vida em exoplanetas. O artigo destaca as principais descobertas e expectativas associadas a este telescópio inovador', 
 'Mariana Lima', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Astronomia'))
+
+INSERT INTO Artigos (data, titulo, conteudo, nome, id_categoria) 
+VALUES 
+-- Artigo com data única
+('2024-01-15T10:00:00', 'A Teoria das Cordas: uma revolução na física', 
+'Este artigo explora os fundamentos da Teoria das Cordas, uma proposta revolucionária na física teórica. A teoria sugere que as partículas fundamentais do universo não são pontos, mas sim pequenas cordas vibrantes que oscilam em diferentes modos. Esta visão alternativa tenta unir a mecânica quântica e a relatividade geral, oferecendo uma possível solução para o problema da gravidade quântica. A teoria das cordas também sugere a existência de dimensões adicionais além das conhecidas quatro dimensões do espaço-tempo. Vamos discutir como essa teoria pode resolver problemas antigos e abrir novas possibilidades para a física moderna. A análise abrange desde a origem da teoria até suas implicações para a física de partículas e cosmologia.', 
+'Carlos Souza', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Física')),
+
+-- Artigo com data única
+('2024-02-20T14:30:00', 'Explorando a Antimatéria: O que é e por que é importante?', 
+'A antimatéria é uma das áreas mais fascinantes e misteriosas da física moderna. Quando partículas de antimatéria se encontram com partículas de matéria, elas se aniquilam mutuamente, liberando uma quantidade de energia imensa. Este artigo explora o conceito de antimatéria, como ela é criada e estudada, e o papel que pode desempenhar em futuras tecnologias e na compreensão do universo. Investigamos também como a antimatéria pode ser utilizada em tratamentos médicos e em futuras viagens espaciais.', 
+'Ana Oliveira', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Física')),
+
+-- Artigo com a mesma data
+('2024-03-01T09:00:00', 'A Origem do Universo: Uma Revisão das Teorias Cosmológicas', 
+'Neste artigo, revisamos as principais teorias sobre a origem do universo, desde o Big Bang até teorias mais recentes como o modelo do multiverso. Analisamos como as evidências astronômicas e experimentais sustentam ou contestam essas teorias e discutimos as implicações para o futuro da cosmologia. O artigo também explora como diferentes culturas e tradições entenderam a origem do cosmos e o impacto dessas visões sobre a ciência moderna.', 
+'Bruno Lima', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Cosmologia')),
+
+-- Artigo com a mesma data
+('2024-03-01T11:00:00', 'Inteligência Artificial e o Futuro da Medicina', 
+'A Inteligência Artificial está transformando rapidamente o campo da medicina, oferecendo novas maneiras de diagnosticar, tratar e gerenciar doenças. Este artigo examina as aplicações atuais da IA na medicina, desde diagnósticos automatizados até tratamentos personalizados e robótica cirúrgica. Discutimos também os desafios éticos e técnicos envolvidos na integração da IA na prática médica e o potencial para melhorar os resultados para os pacientes.', 
+'Mariana Santos', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Tecnologia')),
+
+-- Artigo com data única
+('2024-04-10T16:00:00', 'Mudanças Climáticas e Seus Efeitos na Biodiversidade', 
+'As mudanças climáticas estão tendo um impacto significativo sobre a biodiversidade global, afetando habitats, padrões de migração e a sobrevivência de muitas espécies. Este artigo explora como as mudanças no clima estão alterando ecossistemas e quais são as consequências para a fauna e flora. Discutimos também as estratégias para mitigar esses efeitos e promover a conservação da biodiversidade em um mundo em aquecimento.', 
+'Lucas Martins', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Meio Ambiente')),
+
+-- Artigo com data única
+('2024-05-25T13:00:00', 'O Papel da Física Quântica na Computação do Futuro', 
+'A física quântica está abrindo novas fronteiras na ciência da computação, com o desenvolvimento de computadores quânticos que prometem revolucionar a forma como processamos informações. Este artigo explora os princípios básicos da física quântica que são aplicados na computação quântica, como a superposição e o entrelaçamento, e discute as possíveis aplicações e desafios dessa tecnologia emergente. O artigo também examina o impacto potencial da computação quântica em diferentes áreas, como criptografia e inteligência artificial.', 
+'Felipe Almeida', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Tecnologia'));

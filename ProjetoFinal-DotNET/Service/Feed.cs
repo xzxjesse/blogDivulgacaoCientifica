@@ -20,7 +20,7 @@ namespace ProjetoFinal_DotNET.Service
         {
             try
             {
-                return _artigoRepository.Pesquisa(null, null);
+                return _artigoRepository.Pesquisa(null, null, null);
             }
             catch (Exception ex)
             {
@@ -28,16 +28,9 @@ namespace ProjetoFinal_DotNET.Service
             }
         }
 
-        public List<Artigo> PesquisarArtigos(string textoPesquisa, string nomeCategoria)
+        public List<Artigo> PesquisarArtigos(string textoPesquisa, string nomeCategoria, DateTime? dataPublicacao)
         {
-            try
-            {
-                return _artigoRepository.Pesquisa(textoPesquisa, nomeCategoria);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Erro ao pesquisar artigos", ex);
-            }
+            return _artigoRepository.Pesquisa(textoPesquisa, nomeCategoria, dataPublicacao);
         }
     }
 }
