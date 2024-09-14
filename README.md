@@ -84,18 +84,19 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 
 #### **13/09 - Formulário Sugestão de Tema**
 - Implementar filtro por data. ✔️
-- Desenvolver Figma da página Sugestão de Tema.
-- Adicionar campos de contato (nome e e-mail).
-- Adicionar campo para conteúdo (descrição da sugestão).
-- Armazenar sugestões no banco de dados.
+- Desenvolver Figma da página Sugestão de Tema. ✔️
+- Adicionar campos de contato (nome e e-mail). ✔️
+- Adicionar campo para conteúdo (descrição da sugestão). ✔️
+- Armazenar sugestões no banco de dados. ✔️
 
 ### **Semana 2:**
 
 #### **16/09 - Formulário Sugestão de Artigo**
 - Criar backlog de User Stories da Sprint02.
-- Desenvolver Figma da página Sugestão de Artigo.
-- Adicionar campos de contato (nome e e-mail), título e conteúdo.
-- Armazenar sugestões no banco de dados.
+- Estilizar formulários.
+- Desenvolver Figma da página Sugestão de Artigo. ✔️
+- Adicionar campos de contato (nome e e-mail), título e conteúdo. ✔️
+- Armazenar sugestões no banco de dados. ✔️
 
 ---
 #### Fim do MVP e Início de Incrementos

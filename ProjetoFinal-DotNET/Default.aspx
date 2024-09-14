@@ -11,7 +11,7 @@
                     <asp:ListItem Text="Selecione uma Categoria" Value="" />
                 </asp:DropDownList>
                 <asp:TextBox ID="txtDataPublicacao" runat="server" CssClass="form-control" TextMode="Date" Placeholder="Data de Publicação" />
-                <asp:Button ID="BtnPesquisar" runat="server" Text="Pesquisar" OnClick="btnPesquisar_Click" CssClass="btn btn-primary" />
+                <asp:Button ID="BtnPesquisar" runat="server" Text="Pesquisar" OnClick="BtnPesquisar_Click" CssClass="btn btn-primary" />
             </div>
 
             <div class="container mt-4 text-center">

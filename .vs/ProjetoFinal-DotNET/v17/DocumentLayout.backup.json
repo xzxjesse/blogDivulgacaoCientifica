@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\dao\\repository\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\repository\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\domain\\artigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\domain\\artigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\dao\\domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\domain\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\forms.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\forms.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\dao\\repository\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\repository\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\forms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\forms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\service\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\service\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\repository\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\repository\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\repository\\formularios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\repository\\formularios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\domain\\formularios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\domain\\formularios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\source\\repos\\blogdivulgacaocientifica\\projetofinal-dotnet\\dao\\repository\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\dao\\repository\\feed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,77 +69,112 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Artigo.cs",
-              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
-              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "Forms.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Forms.aspx.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Forms.aspx.cs",
+              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Forms.aspx.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Forms.aspx.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAkwCcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T23:38:02.231Z",
+              "WhenOpened": "2024-09-13T23:19:59.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
-              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Global.asax.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T02:13:09.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Default.aspx.cs",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\Default.aspx.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T00:58:38.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Feed.cs",
-              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Service\\Feed.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Service\\Feed.cs",
-              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Service\\Feed.cs",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\Service\\Feed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T00:55:38.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Categoria.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Domain\\Categoria.cs",
-              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Categoria.cs",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Domain\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T00:46:27.577Z",
+              "WhenOpened": "2024-09-13T23:11:40.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Artigo.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Domain\\Artigo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T23:10:31.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Default.aspx.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Default.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T23:09:21.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Feed.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Source\\Repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Source\\Repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T23:09:09.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Source\\Repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Source\\Repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Repository\\Categoria.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T23:09:04.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Formularios.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Source\\Repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Formularios.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Repository\\Formularios.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Source\\Repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Formularios.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Repository\\Formularios.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T23:08:41.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Formularios.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Formularios.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Domain\\Formularios.cs",
+              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Domain\\Formularios.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Domain\\Formularios.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T23:00:17.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Default.aspx",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Default.aspx",
@@ -135,20 +182,20 @@
               "RelativeToolTip": "ProjetoFinal-DotNET\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-13T00:42:45.28Z",
+              "WhenOpened": "2024-09-13T22:58:00.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Feed.cs",
-              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
-              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\Dao\\Repository\\Feed.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwA8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T23:37:59.175Z",
+              "DocumentIndex": 1,
+              "Title": "Forms.aspx",
+              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Forms.aspx",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Forms.aspx",
+              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\blogDivulgacaoCientifica\\ProjetoFinal-DotNET\\Forms.aspx",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Forms.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-13T22:55:13.452Z",
               "EditorCaption": ""
             }
           ]
