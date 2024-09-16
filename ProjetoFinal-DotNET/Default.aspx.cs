@@ -1,4 +1,4 @@
-﻿using ProjetoFinal_DotNET.Service;
+﻿using ProjetoFinal_DotNET.Controller;
 using ProjetoFinal_DotNET.Dao.Domain;
 using System;
 using System.Collections.Generic;
@@ -10,13 +10,13 @@ namespace ProjetoFinal_DotNET
 {
     public partial class _Default : Page
     {
-        private ArtigoService _artigoService;
+        private FeedController _feedModel;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (_artigoService == null)
+            if (_feedModel == null)
             {
-                _artigoService = new ArtigoService(new ArtigoRepository());
+                _feedModel = new FeedController(new ArtigoRepository());
             }
 
             if (!IsPostBack)
@@ -48,9 +48,9 @@ namespace ProjetoFinal_DotNET
 
         protected void BtnPesquisar_Click(object sender, EventArgs e)
         {
-            if (_artigoService == null)
+            if (_feedModel == null)
             {
-                _artigoService = new ArtigoService(new ArtigoRepository());
+                _feedModel = new FeedController(new ArtigoRepository());
             }
 
             string textoPesquisa = txtTextoPesquisa.Text.Trim();
@@ -76,7 +76,7 @@ namespace ProjetoFinal_DotNET
                 nomeCategoria = null;
             }
 
-            List<Artigo> artigos = _artigoService.PesquisarArtigos(textoPesquisa, nomeCategoria, dataPublicacao);
+            List<Artigo> artigos = _feedModel.PesquisarArtigos(textoPesquisa, nomeCategoria, dataPublicacao);
 
             if (artigos.Count == 0)
             {
@@ -94,7 +94,7 @@ namespace ProjetoFinal_DotNET
 
         private void BindArtigos()
         {
-            List<Artigo> artigos = _artigoService.ObterTodosArtigos();
+            List<Artigo> artigos = _feedModel.ObterTodosArtigos();
             ArticlesRepeater.DataSource = artigos;
             ArticlesRepeater.DataBind();
         }

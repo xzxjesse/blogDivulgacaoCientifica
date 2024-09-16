@@ -1,5 +1,5 @@
 ﻿using ProjetoFinal_DotNET.Dao.Repository;
-using ProjetoFinal_DotNET.Service;
+using ProjetoFinal_DotNET.Controller;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +21,7 @@ namespace ProjetoFinal_DotNET
             var artigoRepository = new ArtigoRepository();
 
             Application["ArtigoRepository"] = artigoRepository;
-            Application["ArtigoService"] = new ArtigoService(artigoRepository);
+            Application["FeedModel"] = new FeedController(artigoRepository);
         }
     }
 }

@@ -200,13 +200,13 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Dao\Config\DataSourceConfig.cs" />
-    <Compile Include="Dao\Domain\Artigo.cs" />
-    <Compile Include="Dao\Domain\Categoria.cs" />
-    <Compile Include="Dao\Domain\Formularios.cs" />
-    <Compile Include="Dao\Repository\Categoria.cs" />
-    <Compile Include="Dao\Repository\Feed.cs" />
-    <Compile Include="Dao\Repository\Formularios.cs" />
+    <Compile Include="DataSourceConfig.cs" />
+    <Compile Include="Model\Artigo.cs" />
+    <Compile Include="Model\Categoria.cs" />
+    <Compile Include="Model\Formularios.cs" />
+    <Compile Include="Repository\Categoria.cs" />
+    <Compile Include="Repository\Feed.cs" />
+    <Compile Include="Repository\Formularios.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -225,7 +225,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\Feed.cs" />
+    <Compile Include="Controller\FeedController.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

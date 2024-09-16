@@ -5,13 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ProjetoFinal_DotNET.Service
+namespace ProjetoFinal_DotNET.Controller
 {
-    public class ArtigoService
+    public class FeedController
     {
         private readonly ArtigoRepository _artigoRepository;
 
-        public ArtigoService(ArtigoRepository artigoRepository)
+        public FeedController(ArtigoRepository artigoRepository)
         {
             _artigoRepository = artigoRepository;
         }
