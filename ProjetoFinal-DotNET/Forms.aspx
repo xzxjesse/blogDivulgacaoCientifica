@@ -13,9 +13,9 @@
         <div class="row mb-4">
             <div class="col-md-6 text-center">
                 <h2>Sugerir Tema</h2>
-                <asp:TextBox ID="txtNomeTema" CssClass="form-control mb-2 mx-auto" runat="server" Placeholder="Seu Nome*" />
-                <asp:TextBox ID="txtEmailTema" CssClass="form-control mb-2 mx-auto" runat="server" Placeholder="Seu Email*" />
-                <asp:TextBox ID="txtTema" CssClass="form-control mb-2 mx-auto" runat="server" TextMode="MultiLine" Placeholder="Tema sugerido*" />
+                <asp:TextBox ID="txtNomeTema" CssClass="form-control mb-2 mx-auto" runat="server" Placeholder="Nome*" />
+                <asp:TextBox ID="txtEmailTema" CssClass="form-control mb-2 mx-auto" runat="server" Placeholder="Email*" />
+                <asp:TextBox ID="txtTema" CssClass="form-control mb-2 mx-auto" runat="server" TextMode="MultiLine" Placeholder="Tema*" />
                 <asp:DropDownList ID="ddlCategoriaTema" runat="server" CssClass="form-control mx-auto">
                     <asp:ListItem Text="Selecione uma Categoria" Value="" />
                 </asp:DropDownList>
@@ -24,10 +24,10 @@
 
             <div class="col-md-6 text-center">
                 <h2>Sugerir Artigo</h2>
-                <asp:TextBox ID="txtNomeArtigo" CssClass="form-control mb-2 mx-auto" runat="server" Placeholder="Seu Nome*" />
-                <asp:TextBox ID="txtEmailArtigo" CssClass="form-control mb-2 mx-auto" runat="server" Placeholder="Seu Email*" />
-                <asp:TextBox ID="txtTituloArtigo" CssClass="form-control mb-2 mx-auto" runat="server" Placeholder="Título do Artigo*" />
-                <asp:TextBox ID="txtConteudoArtigo" CssClass="form-control mb-2 mx-auto" runat="server" TextMode="MultiLine" Placeholder="Conteúdo do Artigo*" />
+                <asp:TextBox ID="txtNomeArtigo" CssClass="form-control mb-2 mx-auto" runat="server" Placeholder="Nome*" />
+                <asp:TextBox ID="txtEmailArtigo" CssClass="form-control mb-2 mx-auto" runat="server" Placeholder="Email*" />
+                <asp:TextBox ID="txtTituloArtigo" CssClass="form-control mb-2 mx-auto" runat="server" Placeholder="Título*" />
+                <asp:TextBox ID="txtConteudoArtigo" CssClass="form-control mb-2 mx-auto" runat="server" TextMode="MultiLine" Placeholder="Conteúdo*" />
                 <asp:DropDownList ID="ddlCategoriaArtigo" runat="server" CssClass="form-control mx-auto">
                     <asp:ListItem Text="Selecione uma Categoria" Value="" />
                 </asp:DropDownList>
