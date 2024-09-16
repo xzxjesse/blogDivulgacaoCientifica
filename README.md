@@ -92,18 +92,19 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 ### **Semana 2:**
 
 #### **16/09 - Formulário Sugestão de Artigo**
-- Criar backlog de User Stories da Sprint02.
-- Estilizar formulários.
+- Criar backlog de User Stories da Sprint02. 
+- Estilizar formulários. ✔️
+- RN ativação do botão. ✔️
 - Desenvolver Figma da página Sugestão de Artigo. ✔️
 - Adicionar campos de contato (nome e e-mail), título e conteúdo. ✔️
 - Armazenar sugestões no banco de dados. ✔️
+- Criar a Web API.
 
 ---
 #### Fim do MVP e Início de Incrementos
 ---
 
 #### **17/09 - API**
-- Criar a Web API.
 - Implementar os endpoints.
 
 #### **18/09 - API**
