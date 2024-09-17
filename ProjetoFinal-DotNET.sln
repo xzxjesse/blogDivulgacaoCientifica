@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoFinal-DotNET", "ProjetoFinal-DotNET\ProjetoFinal-DotNET.csproj", "{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConectaCienciaAPI", "..\..\source\repos\ConectaCienciaAPI\ConectaCienciaAPI\ConectaCienciaAPI.csproj", "{89E96DB3-C6DD-4662-AE58-B9AAE614F06A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E96DB3-C6DD-4662-AE58-B9AAE614F06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E96DB3-C6DD-4662-AE58-B9AAE614F06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E96DB3-C6DD-4662-AE58-B9AAE614F06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E96DB3-C6DD-4662-AE58-B9AAE614F06A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

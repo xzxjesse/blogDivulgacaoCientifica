@@ -98,7 +98,7 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 - Desenvolver Figma da página Sugestão de Artigo. ✔️
 - Adicionar campos de contato (nome e e-mail), título e conteúdo. ✔️
 - Armazenar sugestões no banco de dados. ✔️
-- Criar a APIrest.
+- Criar a API. ✔️
 
 ---
 #### Fim do MVP e Início de Incrementos
