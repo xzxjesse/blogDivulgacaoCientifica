@@ -104,16 +104,13 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 #### Fim do MVP e Início de Incrementos
 ---
 
-#### **17/09 - API**
-- Implementar os endpoints.
-
 #### **18/09 - API**
-- Implementar os endpoints.
+- Implementar os endpoints. ✔️
+- Desenvolver Figma da página de Login.
+- Desenvolver Figma da página de Cadastro.
 
 #### **19/09 - Autenticação**
-- Desenvolver Figma da página de Login.
 - Criar página de login com campos de e-mail e senha.
-- Desenvolver Figma da página de Cadastro.
 - Adicionar página de cadastro com nome, e-mail e senha.
 
 #### **20/09 - Publicação de Artigos**

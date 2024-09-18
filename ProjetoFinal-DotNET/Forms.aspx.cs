@@ -1,50 +1,77 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.Http;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using ProjetoFinal_DotNET.Dao.Domain;
-using ProjetoFinal_DotNET.Dao.Repositor;
-using ProjetoFinal_DotNET.Dao.Repository;
 using static ProjetoFinal_DotNET.Dao.Domain.Formularios;
 
 namespace ProjetoFinal_DotNET
 {
     public partial class Forms : Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+        private static readonly HttpClient client = new HttpClient();
+
+        protected async void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                CarregarCategorias();
+                await CarregarCategorias();
             }
         }
 
-        private void CarregarCategorias()
+        private async Task CarregarCategorias()
         {
-            CategoriaRepository categoriaRepo = new CategoriaRepository();
-            List<Categoria> categorias = categoriaRepo.ObterTodasCategorias();
+            try
+            {
+                string apiUrl = "https://localhost:7259/api/Categoria";
 
-            ddlCategoriaTema.DataSource = categorias;
-            ddlCategoriaTema.DataTextField = "Nome_Categoria";
-            ddlCategoriaTema.DataValueField = "Id_Categoria";
-            ddlCategoriaTema.DataBind();
-            ddlCategoriaTema.Items.Insert(0, new ListItem("Selecione uma Categoria", "0"));
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
 
-            ddlCategoriaArtigo.DataSource = categorias;
-            ddlCategoriaArtigo.DataTextField = "Nome_Categoria";
-            ddlCategoriaArtigo.DataValueField = "Id_Categoria";
-            ddlCategoriaArtigo.DataBind();
-            ddlCategoriaArtigo.Items.Insert(0, new ListItem("Selecione uma Categoria", "0"));
+                if (response.IsSuccessStatusCode && response.Content.Headers.ContentType.MediaType == "application/json")
+                {
+                    var categorias = await response.Content.ReadFromJsonAsync<List<Categoria>>();
+
+                    if (categorias != null && categorias.Count > 0)
+                    {
+                        ddlCategoriaTema.DataSource = categorias;
+                        ddlCategoriaTema.DataTextField = "Nome_Categoria";
+                        ddlCategoriaTema.DataValueField = "Id_Categoria";
+                        ddlCategoriaTema.DataBind();
+                        ddlCategoriaTema.Items.Insert(0, new ListItem("Selecione uma Categoria", ""));
+
+                        ddlCategoriaArtigo.DataSource = categorias;
+                        ddlCategoriaArtigo.DataTextField = "Nome_Categoria";
+                        ddlCategoriaArtigo.DataValueField = "Id_Categoria";
+                        ddlCategoriaArtigo.DataBind();
+                        ddlCategoriaArtigo.Items.Insert(0, new ListItem("Selecione uma Categoria", ""));
+                    }
+                    else
+                    {
+                        ExibirMensagem("alertError", "Nenhuma categoria encontrada.");
+                    }
+                }
+                else
+                {
+                    ExibirMensagem("alertError", $"Erro ao buscar categorias: {response.StatusCode}");
+                }
+            }
+            catch (Exception ex)
+            {
+                ExibirMensagem("alertError", "Erro ao carregar categorias: " + ex.Message);
+            }
         }
 
-        protected void BtnEnviarTema_Click(object sender, EventArgs e)
+        protected async void BtnEnviarTema_Click(object sender, EventArgs e)
         {
             string nome = txtNomeTema.Text.Trim();
             string email = txtEmailTema.Text.Trim();
             string tema = txtTema.Text.Trim();
-            int idCategoria = int.Parse(ddlCategoriaTema.SelectedValue);
+            int idCategoria;
 
-            if (string.IsNullOrEmpty(nome) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(tema) || idCategoria == 0)
+            if (string.IsNullOrEmpty(nome) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(tema) || !int.TryParse(ddlCategoriaTema.SelectedValue, out idCategoria) || idCategoria == 0)
             {
                 ExibirMensagem("alertError", "Todos os campos são obrigatórios e uma categoria deve ser selecionada.");
                 return;
@@ -52,18 +79,38 @@ namespace ProjetoFinal_DotNET
 
             try
             {
-                FormulariosRepository formulariosRepo = new FormulariosRepository();
-                FormularioTema formularioTema = new FormularioTema
+                string apiUrl = "https://localhost:7259/api/Formularios/tema";
+
+                var categoriaSelecionada = new Categoria
+                {
+                    Id_Categoria = idCategoria,
+                    Nome_Categoria = ddlCategoriaTema.SelectedItem.Text
+                };
+
+                var formularioTema = new FormularioTema
                 {
                     Nome = nome,
                     Email = email,
                     Tema = tema,
-                    Id_Categoria = idCategoria
+                    Id_Categoria = idCategoria,
+                    Categoria = categoriaSelecionada
                 };
-                formulariosRepo.AdicionarTema(formularioTema);
 
-                LimparCamposTema();
-                ExibirMensagem("alertSuccess", "Sugestão de tema enviada com sucesso!");
+                using (var client = new HttpClient())
+                {
+                    HttpResponseMessage response = await client.PostAsJsonAsync(apiUrl, formularioTema);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        LimparCamposTema();
+                        ExibirMensagem("alertSuccess", "Sugestão de tema enviada com sucesso!");
+                    }
+                    else
+                    {
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        ExibirMensagem("alertError", $"Erro ao enviar sugestão de tema: {response.StatusCode} - {responseBody}");
+                    }
+                }
             }
             catch (Exception ex)
             {
@@ -71,15 +118,16 @@ namespace ProjetoFinal_DotNET
             }
         }
 
-        protected void BtnEnviarArtigo_Click(object sender, EventArgs e)
+
+        protected async void BtnEnviarArtigo_Click(object sender, EventArgs e)
         {
             string nome = txtNomeArtigo.Text.Trim();
             string email = txtEmailArtigo.Text.Trim();
             string titulo = txtTituloArtigo.Text.Trim();
             string conteudo = txtConteudoArtigo.Text.Trim();
-            int idCategoria = int.Parse(ddlCategoriaArtigo.SelectedValue);
+            int idCategoria;
 
-            if (string.IsNullOrEmpty(nome) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(titulo) || string.IsNullOrEmpty(conteudo) || idCategoria == 0)
+            if (string.IsNullOrEmpty(nome) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(titulo) || string.IsNullOrEmpty(conteudo) || !int.TryParse(ddlCategoriaArtigo.SelectedValue, out idCategoria) || idCategoria == 0)
             {
                 ExibirMensagem("alertError", "Todos os campos são obrigatórios e uma categoria deve ser selecionada.");
                 return;
@@ -87,25 +135,44 @@ namespace ProjetoFinal_DotNET
 
             try
             {
-                FormulariosRepository formulariosRepo = new FormulariosRepository();
-                FormularioArtigo formularioArtigo = new FormularioArtigo
+                string apiUrl = "https://localhost:7259/api/Formularios/artigo";
+
+                var categoriaSelecionada = new Categoria
+                {
+                    Id_Categoria = idCategoria,
+                    Nome_Categoria = ddlCategoriaArtigo.SelectedItem.Text
+                };
+
+                var formularioArtigo = new FormularioArtigo
                 {
                     Nome = nome,
                     Email = email,
                     Titulo = titulo,
                     Conteudo = conteudo,
-                    Id_Categoria = idCategoria
+                    Id_Categoria = idCategoria,
+                    Categoria = categoriaSelecionada
                 };
-                formulariosRepo.AdicionarArtigo(formularioArtigo);
 
-                LimparCamposArtigo();
-                ExibirMensagem("alertSuccess", "Sugestão de artigo enviada com sucesso!");
+                HttpResponseMessage response = await client.PostAsJsonAsync(apiUrl, formularioArtigo);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    LimparCamposArtigo();
+                    ExibirMensagem("alertSuccess", "Sugestão de artigo enviada com sucesso!");
+                }
+                else
+                {
+                    string responseBody = await response.Content.ReadAsStringAsync();
+                    ExibirMensagem("alertError", $"Erro ao enviar sugestão de artigo: {response.StatusCode} - {responseBody}");
+                }
             }
             catch (Exception ex)
             {
                 ExibirMensagem("alertError", "Erro ao salvar dados: " + ex.Message);
             }
         }
+
+
 
         private void ExibirMensagem(string idAlert, string mensagem)
         {

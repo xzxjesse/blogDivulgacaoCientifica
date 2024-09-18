@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Formulários" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Forms.aspx.cs" Inherits="ProjetoFinal_DotNET.Forms" %>
+﻿<%@ Page Title="Formulários" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Forms.aspx.cs" Inherits="ProjetoFinal_DotNET.Forms" Async="true"%>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
 
@@ -61,13 +61,6 @@
             }
         }
 
-        document.addEventListener('DOMContentLoaded', function () {
-            document.getElementById('<%= txtNomeTema.ClientID %>').addEventListener('input', validarCamposTema);
-            document.getElementById('<%= txtEmailTema.ClientID %>').addEventListener('input', validarCamposTema);
-            document.getElementById('<%= txtTema.ClientID %>').addEventListener('input', validarCamposTema);
-            document.getElementById('<%= ddlCategoriaTema.ClientID %>').addEventListener('change', validarCamposTema);
-        });
-
         function validarCamposArtigo() {
             var nome = document.getElementById('<%= txtNomeArtigo.ClientID %>').value.trim();
             var email = document.getElementById('<%= txtEmailArtigo.ClientID %>').value.trim();
@@ -83,6 +76,13 @@
                 botaoEnviar.disabled = true;
             }
         }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('<%= txtNomeTema.ClientID %>').addEventListener('input', validarCamposTema);
+            document.getElementById('<%= txtEmailTema.ClientID %>').addEventListener('input', validarCamposTema);
+            document.getElementById('<%= txtTema.ClientID %>').addEventListener('input', validarCamposTema);
+            document.getElementById('<%= ddlCategoriaTema.ClientID %>').addEventListener('change', validarCamposTema);
+        });
 
         document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('<%= txtNomeArtigo.ClientID %>').addEventListener('input', validarCamposArtigo);

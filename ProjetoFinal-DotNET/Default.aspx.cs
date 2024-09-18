@@ -1,102 +1,174 @@
-﻿using ProjetoFinal_DotNET.Controller;
-using ProjetoFinal_DotNET.Dao.Domain;
+﻿using ProjetoFinal_DotNET.Dao.Domain;
 using System;
 using System.Collections.Generic;
+using System.Net.Http;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
 using System.Web.UI;
-using ProjetoFinal_DotNET.Dao.Repository;
 using System.Web.UI.WebControls;
 
 namespace ProjetoFinal_DotNET
 {
     public partial class _Default : Page
     {
-        private FeedController _feedModel;
+        private static readonly HttpClient client = new HttpClient();
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (_feedModel == null)
-            {
-                _feedModel = new FeedController(new ArtigoRepository());
-            }
-
             if (!IsPostBack)
             {
-                CarregarCategorias();
-                BindArtigos();
+                RegisterAsyncTask(new PageAsyncTask(async () =>
+                {
+                    CarregarCategorias();
+                    await BindArtigos();
+                }));
             }
         }
 
-        private void CarregarCategorias()
+        private async Task CarregarCategorias()
         {
             try
             {
-                CategoriaRepository categoriaRepository = new CategoriaRepository();
-                List<Categoria> categorias = categoriaRepository.ObterTodasCategorias();
+                using (var client = new HttpClient())
+                {
+                    string apiUrl = "https://localhost:7259/api/Categoria";
 
-                ddlCategoria.DataSource = categorias;
-                ddlCategoria.DataTextField = "nome_categoria";
-                ddlCategoria.DataValueField = "id_categoria";
-                ddlCategoria.DataBind();
+                    HttpResponseMessage response = await client.GetAsync(apiUrl);
 
-                ddlCategoria.Items.Insert(0, new ListItem("Selecione uma Categoria", ""));
+                    if (response.IsSuccessStatusCode && response.Content.Headers.ContentType.MediaType == "application/json")
+                    {
+                        var categorias = await response.Content.ReadFromJsonAsync<List<Categoria>>();
+
+                        if (categorias != null && categorias.Count > 0)
+                        {
+                            ddlCategoria.DataSource = categorias;
+                            ddlCategoria.DataTextField = "Nome_Categoria";
+                            ddlCategoria.DataValueField = "Id_Categoria";
+                            ddlCategoria.DataBind();
+
+                            ddlCategoria.Items.Insert(0, new ListItem("Selecione uma Categoria", ""));
+                        }
+                        else
+                        {
+                            lblMensagem.Text = "Nenhuma categoria encontrada.";
+                            lblMensagem.Visible = true;
+                        }
+                    }
+                    else
+                    {
+                        lblMensagem.Text = $"Erro ao buscar categorias: {response.StatusCode}";
+                        lblMensagem.Visible = true;
+                    }
+                }
             }
             catch (Exception ex)
             {
-                throw new Exception("Erro ao carregar as categorias", ex);
+                lblMensagem.Text = "Erro: " + ex.Message;
+                lblMensagem.Visible = true;
             }
         }
 
         protected void BtnPesquisar_Click(object sender, EventArgs e)
         {
-            if (_feedModel == null)
+            RegisterAsyncTask(new PageAsyncTask(async () =>
             {
-                _feedModel = new FeedController(new ArtigoRepository());
-            }
+                string textoPesquisa = txtTextoPesquisa.Text.Trim();
+                string nomeCategoria = ddlCategoria.SelectedItem.Text;
+                DateTime? dataPublicacao = null;
 
-            string textoPesquisa = txtTextoPesquisa.Text.Trim();
-            string nomeCategoria = ddlCategoria.SelectedItem.Text;
-            DateTime? dataPublicacao = null;
-            if (!string.IsNullOrEmpty(txtDataPublicacao.Text))
-            {
-                DateTime tempData;
-                if (DateTime.TryParse(txtDataPublicacao.Text, out tempData))
+                if (!string.IsNullOrEmpty(txtDataPublicacao.Text))
                 {
-                    dataPublicacao = tempData.Date;
+                    if (DateTime.TryParse(txtDataPublicacao.Text, out DateTime tempData))
+                    {
+                        dataPublicacao = tempData;
+                    }
+                    else
+                    {
+                        lblMensagem.Text = "Data inválida. Por favor, insira uma data válida.";
+                        lblMensagem.Visible = true;
+                        return;
+                    }
                 }
-                else
+
+                if (ddlCategoria.SelectedIndex == 0)
                 {
-                    lblMensagem.Text = "Data inválida. Por favor, insira uma data válida.";
-                    lblMensagem.Visible = true;
-                    return;
+                    nomeCategoria = null;
+                }
+
+                await CarregarArtigos(textoPesquisa, nomeCategoria, dataPublicacao);
+            }));
+        }
+        private async Task CarregarArtigos(string textoPesquisa, string nomeCategoria, DateTime? dataPublicacao)
+        {
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    string apiUrl = "https://localhost:7259/api/Feed";
+
+                    var queryParams = new List<string>();
+
+                    if (!string.IsNullOrEmpty(textoPesquisa))
+                    {
+                        queryParams.Add($"textoPesquisa={Uri.EscapeDataString(textoPesquisa)}");
+                    }
+
+                    if (!string.IsNullOrEmpty(nomeCategoria))
+                    {
+                        queryParams.Add($"nomeCategoria={Uri.EscapeDataString(nomeCategoria)}");
+                    }
+
+                    if (dataPublicacao.HasValue)
+                    {
+                        queryParams.Add($"dataPublicacao={dataPublicacao.Value.ToString("yyyy-MM-dd")}");
+                    }
+
+                    if (queryParams.Count > 0)
+                    {
+                        apiUrl += "?" + string.Join("&", queryParams);
+                    }
+
+                    HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+                    if (response.IsSuccessStatusCode && response.Content.Headers.ContentType.MediaType == "application/json")
+                    {
+                        var artigos = await response.Content.ReadFromJsonAsync<List<Artigo>>();
+
+                        if (artigos != null && artigos.Count > 0)
+                        {
+                            lblMensagem.Visible = false;
+                            ArticlesRepeater.DataSource = artigos;
+                            ArticlesRepeater.DataBind();
+                        }
+                        else
+                        {
+                            lblMensagem.Text = "Nenhum artigo encontrado.";
+                            lblMensagem.Visible = true;
+                            ArticlesRepeater.DataSource = null;
+                            ArticlesRepeater.DataBind();
+                        }
+                    }
+                    else
+                    {
+                        lblMensagem.Text = $"Nenhum artigo encontrado.";
+                        lblMensagem.Visible = true;
+                        ArticlesRepeater.DataSource = null;
+                        ArticlesRepeater.DataBind();
+                    }
                 }
             }
-
-            if (ddlCategoria.SelectedIndex == 0)
+            catch (Exception ex)
             {
-                nomeCategoria = null;
-            }
-
-            List<Artigo> artigos = _feedModel.PesquisarArtigos(textoPesquisa, nomeCategoria, dataPublicacao);
-
-            if (artigos.Count == 0)
-            {
-                lblMensagem.Text = "Nenhum artigo encontrado.";
+                lblMensagem.Text = "Erro: " + ex.Message;
                 lblMensagem.Visible = true;
+                ArticlesRepeater.DataSource = null;
+                ArticlesRepeater.DataBind();
             }
-            else
-            {
-                lblMensagem.Visible = false;
-            }
-
-            ArticlesRepeater.DataSource = artigos;
-            ArticlesRepeater.DataBind();
         }
 
-        private void BindArtigos()
+        private async Task BindArtigos()
         {
-            List<Artigo> artigos = _feedModel.ObterTodosArtigos();
-            ArticlesRepeater.DataSource = artigos;
-            ArticlesRepeater.DataBind();
+            await CarregarArtigos(null, null, null);
         }
     }
 }

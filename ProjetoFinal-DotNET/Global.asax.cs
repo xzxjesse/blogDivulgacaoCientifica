@@ -1,6 +1,4 @@
-﻿using ProjetoFinal_DotNET.Dao.Repository;
-using ProjetoFinal_DotNET.Controller;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -17,11 +15,6 @@ namespace ProjetoFinal_DotNET
         {
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            var artigoRepository = new ArtigoRepository();
-
-            Application["ArtigoRepository"] = artigoRepository;
-            Application["FeedModel"] = new FeedController(artigoRepository);
         }
     }
 }
