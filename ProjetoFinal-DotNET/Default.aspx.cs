@@ -19,7 +19,7 @@ namespace ProjetoFinal_DotNET
             {
                 RegisterAsyncTask(new PageAsyncTask(async () =>
                 {
-                    CarregarCategorias();
+                    await CarregarCategorias();
                     await BindArtigos();
                 }));
             }
@@ -132,7 +132,7 @@ namespace ProjetoFinal_DotNET
 
                     if (response.IsSuccessStatusCode && response.Content.Headers.ContentType.MediaType == "application/json")
                     {
-                        var artigos = await response.Content.ReadFromJsonAsync<List<Artigo>>();
+                        var artigos = await response.Content.ReadFromJsonAsync<List<Artigo>>(); 
 
                         if (artigos != null && artigos.Count > 0)
                         {
@@ -150,7 +150,7 @@ namespace ProjetoFinal_DotNET
                     }
                     else
                     {
-                        lblMensagem.Text = $"Nenhum artigo encontrado.";
+                        lblMensagem.Text = $"Erro ao buscar artigos: {response.ReasonPhrase}";
                         lblMensagem.Visible = true;
                         ArticlesRepeater.DataSource = null;
                         ArticlesRepeater.DataBind();
@@ -165,6 +165,7 @@ namespace ProjetoFinal_DotNET
                 ArticlesRepeater.DataBind();
             }
         }
+
 
         private async Task BindArtigos()
         {

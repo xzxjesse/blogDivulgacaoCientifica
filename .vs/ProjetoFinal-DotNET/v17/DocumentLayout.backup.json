@@ -3,16 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconectaciencia\\projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconectaciencia\\projetofinal-dotnet\\model\\artigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\model\\artigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconectaciencia\\projetofinal-dotnet\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\Documents\\projConectaCiencia\\projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89E96DB3-C6DD-4662-AE58-B9AAE614F06A}|..\\..\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj|c:\\users\\jeeve\\source\\repos\\conectacienciaapi\\conectacienciaapi\\controllers\\formulariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89E96DB3-C6DD-4662-AE58-B9AAE614F06A}|..\\..\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj|c:\\users\\jeeve\\source\\repos\\conectacienciaapi\\conectacienciaapi\\model\\artigomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconectaciencia\\projetofinal-dotnet\\forms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\forms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\Documents\\projConectaCiencia\\projetofinal-dotnet\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\Documents\\projConectaCiencia\\projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +40,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 317,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Artigo.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ProjetoFinal-DotNET\\Model\\Artigo.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Model\\Artigo.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ProjetoFinal-DotNET\\Model\\Artigo.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Model\\Artigo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:23:37.961Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -41,12 +72,64 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ProjetoFinal-DotNET\\Model\\Usuario.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Model\\Usuario.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ProjetoFinal-DotNET\\Model\\Usuario.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Model\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:23:35.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormularioController.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\Controllers\\FormularioController.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\Controllers\\FormularioController.cs",
+              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\Controllers\\FormularioController.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\Controllers\\FormularioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:03:30.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArtigoModel.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\Model\\ArtigoModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\Model\\ArtigoModel.cs",
+              "ToolTip": "C:\\Users\\jeeve\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\Model\\ArtigoModel.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\Model\\ArtigoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T01:03:02.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ProjetoFinal-DotNET\\Default.aspx",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Default.aspx",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ProjetoFinal-DotNET\\Default.aspx",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-19T01:02:42.109Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Forms.aspx.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ProjetoFinal-DotNET\\Forms.aspx.cs",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Forms.aspx.cs",
@@ -59,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ProjetoFinal-DotNET\\Global.asax.cs",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Global.asax.cs",
@@ -71,15 +154,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ProjetoFinal-DotNET\\Default.aspx.cs",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Default.aspx.cs",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ProjetoFinal-DotNET\\Default.aspx.cs",
               "RelativeToolTip": "ProjetoFinal-DotNET\\Default.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwIYAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T22:15:19.114Z"
+              "WhenOpened": "2024-09-18T22:15:19.114Z",
+              "EditorCaption": ""
             }
           ]
         }

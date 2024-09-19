@@ -72,3 +72,28 @@ VALUES
 ('2024-05-25T13:00:00', 'O Papel da Física Quântica na Computação do Futuro', 
 'A física quântica está abrindo novas fronteiras na ciência da computação, com o desenvolvimento de computadores quânticos que prometem revolucionar a forma como processamos informações. Este artigo explora os princípios básicos da física quântica que são aplicados na computação quântica, como a superposição e o entrelaçamento, e discute as possíveis aplicações e desafios dessa tecnologia emergente. O artigo também examina o impacto potencial da computação quântica em diferentes áreas, como criptografia e inteligência artificial.', 
 'Felipe Almeida', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Tecnologia'));
+
+-- Usuários
+INSERT INTO Usuarios (nome, email, senha) VALUES
+('João Silva', 'joao.silva@example.com', 'senhaDoJoao'),
+('Maria Souza', 'maria.souza@example.com', 'Maria123'),
+('Carlos Lima', 'carlos.lima@example.com', 'SenhaSecreta');
+
+-- Artigos com usuarios
+INSERT INTO Artigos (data, titulo, conteudo, nome, id_categoria, id_usuario) 
+VALUES 
+('2024-03-10T16:00:00', 'Mudanças Climáticas e Seus Efeitos na Biodiversidade', 
+'As mudanças climáticas estão tendo um impacto significativo sobre a biodiversidade global, afetando habitats, padrões de migração e a sobrevivência de muitas espécies. Este artigo explora como as mudanças no clima estão alterando ecossistemas e quais são as consequências para a fauna e flora. Discutimos também as estratégias para mitigar esses efeitos e promover a conservação da biodiversidade em um mundo em aquecimento.', 
+'Maria Souza', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Biologia'), 2), -- Maria
+
+('2024-01-15T10:00:00', 'A Teoria das Cordas: uma revolução na física', 
+'Este artigo explora os fundamentos da Teoria das Cordas, uma proposta revolucionária na física teórica. A teoria sugere que as partículas fundamentais do universo não são pontos, mas sim pequenas cordas vibrantes que oscilam em diferentes modos. Esta visão alternativa tenta unir a mecânica quântica e a relatividade geral, oferecendo uma possível solução para o problema da gravidade quântica. A teoria das cordas também sugere a existência de dimensões adicionais além das conhecidas quatro dimensões do espaço-tempo. Vamos discutir como essa teoria pode resolver problemas antigos e abrir novas possibilidades para a física moderna. A análise abrange desde a origem da teoria até suas implicações para a física de partículas e cosmologia.', 
+'Carlos Souza', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Física'), 3),  -- Carlos
+
+('2024-02-20T14:30:00', 'Explorando a Antimatéria: O que é e por que é importante?', 
+'A antimatéria é uma das áreas mais fascinantes e misteriosas da física moderna. Quando partículas de antimatéria se encontram com partículas de matéria, elas se aniquilam mutuamente, liberando uma quantidade de energia imensa. Este artigo explora o conceito de antimatéria, como ela é criada e estudada, e o papel que pode desempenhar em futuras tecnologias e na compreensão do universo. Investigamos também como a antimatéria pode ser utilizada em tratamentos médicos e em futuras viagens espaciais.', 
+'Maria Souza', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Física'), 2),  -- Maria
+
+('2024-03-01T09:00:00', 'A Origem do Universo: Uma Revisão das Teorias Cosmológicas', 
+'Neste artigo, revisamos as principais teorias sobre a origem do universo, desde o Big Bang até teorias mais recentes como o modelo do multiverso. Analisamos como as evidências astronômicas e experimentais sustentam ou contestam essas teorias e discutimos as implicações para o futuro da cosmologia. O artigo também explora como diferentes culturas e tradições entenderam a origem do cosmos e o impacto dessas visões sobre a ciência moderna.', 
+'João Silva', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Astronomia'), 1);  -- João

@@ -26,10 +26,10 @@
             <ItemTemplate>
                 <div class="card mb-4">
                     <div class="card-body">
-                        <h2 class="card-title"><%# Eval("titulo") %></h2>
-                        <p class="card-text"><%# Eval("conteudo") %></p>
+                        <h2 class="card-title"><%# Eval("Titulo") %></h2>
+                        <p class="card-text"><%# Eval("Conteudo") %></p>
                         <footer class="blockquote-footer">
-                            Publicado por <%# Eval("nome") %> em <%# Eval("data", "{0:dd/MM/yyyy}") %>
+                            Publicado por <%# Eval("Usuario.Nome") %> em <%# Eval("Data", "{0:dd/MM/yyyy}") %>
                         </footer>
                     </div>
                 </div>

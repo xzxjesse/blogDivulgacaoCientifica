@@ -52,3 +52,20 @@ GO
 ALTER TABLE Artigos
 ADD CONSTRAINT FK_Artigos_Categorias FOREIGN KEY (id_categoria) REFERENCES Categorias(id_categoria);
 GO
+
+-- Adiciona Usuários
+CREATE TABLE Usuarios (
+    id_usuario INT PRIMARY KEY IDENTITY(1,1),
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL
+);
+GO
+
+-- Correção artigos
+ALTER TABLE Artigos
+ADD id_usuario INT;
+
+ALTER TABLE Artigos
+ADD CONSTRAINT FK_Artigos_Usuarios FOREIGN KEY (id_usuario) REFERENCES Usuarios(id_usuario);
+GO
