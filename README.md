@@ -106,23 +106,25 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 
 #### **18/09 - API**
 - Implementar os endpoints. ✔️
-- Desenvolver Figma da página de Login.
-- Desenvolver Figma da página de Cadastro.
+- Desenvolver Figma da página de Acesso. ✔️
+- Desenvolver Figma da página de Cadastro. ✔️
+- Desenvolver Figma da página de Perfil. ✔️
+- Desenvolver Figma da página de Meus Artigos. ✔️
+- Desenvolver Figma da página de Publicação. ✔️
+- Desenvolver Figma da página de Edição. ✔️
+- Adequar banco de dados para Login/Singin.
 
 #### **19/09 - Autenticação**
-- Criar página de login com campos de e-mail e senha.
+- Criar página de acesso com campos de e-mail e senha.
 - Adicionar página de cadastro com nome, e-mail e senha.
 
 #### **20/09 - Publicação de Artigos**
-- Criar backlog de User Stories da Sprint03.
-- Desenvolver Figma da página de Publicação.
 - Adicionar campos de título e conteúdo.
 - Armazenar publicações no banco de dados.
 
 ### **Semana 3:**
 
 #### **23/09 - Página de Meus Artigos**
-- Desenvolver Figma da página de Meus Artigos.
 - Listar artigos publicados pelo usuário conectado.
 
 #### **24/09 - Editar e Apagar Publicação**
