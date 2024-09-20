@@ -24,7 +24,7 @@
 
         <asp:Repeater ID="ArticlesRepeater" runat="server">
             <ItemTemplate>
-                <div class="card mb-4">
+                <div class="card mb-4 border p-2 shadow">
                     <div class="card-body">
                         <h2 class="card-title"><%# Eval("Titulo") %></h2>
                         <p class="card-text"><%# Eval("Conteudo") %></p>

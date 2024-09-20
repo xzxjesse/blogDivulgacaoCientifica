@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PB3oVpAU+38=",
+  "dgSpecHash": "iKipZaMZ2GE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeeve\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
+  "projectFilePath": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jeeve\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\jeeve\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

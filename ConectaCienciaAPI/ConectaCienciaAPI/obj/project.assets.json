@@ -5209,11 +5209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeeve\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
       "projectName": "ConectaCienciaAPI",
-      "projectPath": "C:\\Users\\jeeve\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
+      "projectPath": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
       "packagesPath": "C:\\Users\\jeeve\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeeve\\source\\repos\\ConectaCienciaAPI\\ConectaCienciaAPI\\obj\\",
+      "outputPath": "C:\\Users\\jeeve\\Documents\\projConectaCiencia\\ConectaCienciaAPI\\ConectaCienciaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
