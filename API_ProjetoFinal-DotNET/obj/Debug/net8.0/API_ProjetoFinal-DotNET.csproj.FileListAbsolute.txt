@@ -1,8 +1,0 @@
-C:\Users\jeeve\Documents\ProjFinalATOS\API_ProjetoFinal-DotNET\obj\Debug\net8.0\API_ProjetoFinal-DotNET.csproj.AssemblyReference.cache
-C:\Users\jeeve\Documents\ProjFinalATOS\API_ProjetoFinal-DotNET\obj\Debug\net8.0\API_ProjetoFinal-DotNET.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jeeve\Documents\ProjFinalATOS\API_ProjetoFinal-DotNET\obj\Debug\net8.0\API_ProjetoFinal-DotNET.AssemblyInfoInputs.cache
-C:\Users\jeeve\Documents\ProjFinalATOS\API_ProjetoFinal-DotNET\obj\Debug\net8.0\API_ProjetoFinal-DotNET.AssemblyInfo.cs
-C:\Users\jeeve\Documents\ProjFinalATOS\API_ProjetoFinal-DotNET\obj\Debug\net8.0\API_ProjetoFinal-DotNET.csproj.CoreCompileInputs.cache
-C:\Users\jeeve\Documents\ProjFinalATOS\API_ProjetoFinal-DotNET\obj\Debug\net8.0\API_ProjetoFinal-DotNET.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\jeeve\Documents\ProjFinalATOS\API_ProjetoFinal-DotNET\obj\Debug\net8.0\API_ProjetoFinal-DotNET.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\jeeve\Documents\ProjFinalATOS\API_ProjetoFinal-DotNET\obj\Debug\net8.0\API_ProjetoFinal-DotNET.sourcelink.json

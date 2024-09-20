@@ -1,0 +1,147 @@
+[
+  {
+    "ContainingType": "ConectaCienciaAPI.Controllers.CategoriaController",
+    "Method": "Pesquisa",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ConectaCienciaAPI.Model.CategoriaModel, ConectaCienciaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ConectaCienciaAPI.Controllers.FeedController",
+    "Method": "Pesquisa",
+    "RelativePath": "api/Feed",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "textoPesquisa",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nomeCategoria",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dataPublicacao",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ConectaCienciaAPI.Models.ArtigoModel, ConectaCienciaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ConectaCienciaAPI.Controllers.FormulariosController",
+    "Method": "AdicionarArtigo",
+    "RelativePath": "api/Formularios/artigo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formularioArtigo",
+        "Type": "ConectaCienciaAPI.Model.FormulariosModel\u002BFormularioArtigo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConectaCienciaAPI.Controllers.FormulariosController",
+    "Method": "AdicionarTema",
+    "RelativePath": "api/Formularios/tema",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formularioTema",
+        "Type": "ConectaCienciaAPI.Model.FormulariosModel\u002BFormularioTema",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConectaCienciaAPI.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "senha",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ConectaCienciaAPI.Model.UsuarioModel, ConectaCienciaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ConectaCienciaAPI.Controllers.LoginController",
+    "Method": "Register",
+    "RelativePath": "api/Login/cadastro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "ConectaCienciaAPI.Model.UsuarioModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ConectaCienciaAPI.Model.UsuarioModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
