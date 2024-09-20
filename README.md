@@ -112,25 +112,31 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 - Desenvolver Figma da página de Meus Artigos. ✔️
 - Desenvolver Figma da página de Publicação. ✔️
 - Desenvolver Figma da página de Edição. ✔️
-- Adequar banco de dados para Login/Singin.
+- Adequar banco de dados para Login/Singin. ✔️
 
 #### **19/09 - Autenticação**
-- Criar página de acesso com campos de e-mail e senha.
-- Adicionar página de cadastro com nome, e-mail e senha.
+- Criar end point de Cadastro. ✔️
+- Criar end point de Acesso. ✔️
+- Criar página de acesso com campos de e-mail e senha. ✔️
+- Criar página de cadastro com nome, e-mail e senha. ✔️
 
-#### **20/09 - Publicação de Artigos**
-- Adicionar campos de título e conteúdo.
+#### **20/09 - Página de Meus Artigos**
+- Estilizar páginas de acesso/cadastro.
+- Redirecionar páginas de acesso/cadastro.
+- Listar artigos publicados pelo usuário conectado.
+- Adicionar campos de título e conteúdo em publicação.
 - Armazenar publicações no banco de dados.
 
 ### **Semana 3:**
 
-#### **23/09 - Página de Meus Artigos**
-- Listar artigos publicados pelo usuário conectado.
-
-#### **24/09 - Editar e Apagar Publicação**
-- Implementar edição de artigos com campos pré-populados.
+#### **23/09 - Editar e Apagar Publicação**
+- Implementar edição de artigos com campos pré preenchidos.
 - Implementar exclusão de artigos publicados pelo usuário.
+
+#### **24/09 - Documentação e testes**
+- Preparar documentação da API.
+- Preparar documentação do WebForms.
 
 #### **25/09 - Preparo da Apresentação Final**
 - Revisar o projeto.
-- Preparar documentação e demonstração para a apresentação final.
+- Preparar a demonstração para a apresentação final.
