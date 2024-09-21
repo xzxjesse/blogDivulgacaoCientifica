@@ -20,7 +20,7 @@
             </div>
 
             <div class="text-center">
-                <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" CssClass="btn btn-primary" />
+                <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" OnClick="btnCadastrar_Click" />
             </div>
 
             <div>

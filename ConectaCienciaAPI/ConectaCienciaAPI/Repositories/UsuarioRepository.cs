@@ -1,92 +1,88 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using ConectaCienciaAPI.Model;
 using System.Data.SqlClient;
-using ConectaCienciaAPI.Model;
 
-namespace ConectaCienciaAPI.Repositories
+public class UsuarioRepository
 {
-    public class UsuarioRepository
+    private readonly string _connectionString;
+
+    public UsuarioRepository(string connectionString)
     {
-        private readonly string _connectionString;
-
-        public UsuarioRepository(string connectionString)
+        if (string.IsNullOrEmpty(connectionString))
         {
-            if (string.IsNullOrEmpty(connectionString))
-            {
-                throw new Exception("ConnectionString sem valor válido");
-            }
-            _connectionString = connectionString;
+            throw new Exception("ConnectionString sem valor válido");
         }
+        _connectionString = connectionString;
+    }
 
-        public IEnumerable<UsuarioModel> ObterUsuariosPorEmailESenha(string email, string senha)
+    public UsuarioModel ObterUsuarioPorEmailESenha(string email, string senha)
+    {
+        UsuarioModel usuario = null;
+        var sql = @"SELECT * FROM Usuarios WHERE Email = @Email AND Senha = @Senha";
+        var parameters = new List<SqlParameter>
         {
-            var usuarios = new List<UsuarioModel>();
-            var sql = @"SELECT * FROM Usuarios WHERE Email = @Email AND Senha = @Senha";
-            var parameters = new List<SqlParameter>
-            {
-                new SqlParameter("@Email", email),
-                new SqlParameter("@Senha", senha)
-            };
+            new SqlParameter("@Email", email),
+            new SqlParameter("@Senha", senha)
+        };
 
-            try
+        try
+        {
+            using (SqlConnection connection = new SqlConnection(_connectionString))
             {
-                using (SqlConnection connection = new SqlConnection(_connectionString))
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(sql, connection))
                 {
-                    connection.Open();
-                    using (SqlCommand command = new SqlCommand(sql, connection))
-                    {
-                        command.Parameters.AddRange(parameters.ToArray());
+                    command.Parameters.AddRange(parameters.ToArray());
 
-                        using (SqlDataReader reader = command.ExecuteReader())
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
                         {
-                            while (reader.Read())
+                            usuario = new UsuarioModel
                             {
-                                usuarios.Add(new UsuarioModel
-                                {
-                                    Id_Usuario = reader.GetInt32(reader.GetOrdinal("Id_Usuario")),
-                                    Nome = reader.GetString(reader.GetOrdinal("Nome")),
-                                    Email = reader.GetString(reader.GetOrdinal("Email")),
-                                    Senha = reader.GetString(reader.GetOrdinal("Senha"))
-                                });
-                            }
+                                Id_Usuario = reader.GetInt32(reader.GetOrdinal("Id_Usuario")),
+                                Nome = reader.GetString(reader.GetOrdinal("Nome")),
+                                Email = reader.GetString(reader.GetOrdinal("Email")),
+                                Senha = reader.GetString(reader.GetOrdinal("Senha"))
+                            };
                         }
                     }
                 }
             }
-            catch (SqlException ex)
-            {
-                throw new Exception("Erro ao acessar o banco de dados.", ex);
-            }
-
-            return usuarios;
+        }
+        catch (SqlException ex)
+        {
+            throw new Exception("Erro ao acessar o banco de dados.", ex);
         }
 
-        public void AdicionarUsuario(UsuarioModel usuario)
-        {
-            var sql = @"INSERT INTO Usuarios (Nome, Email, Senha) VALUES (@Nome, @Email, @Senha)";
-            var parameters = new List<SqlParameter>
-            {
-                new SqlParameter("@Nome", usuario.Nome),
-                new SqlParameter("@Email", usuario.Email),
-                new SqlParameter("@Senha", usuario.Senha) 
-            };
+        return usuario;
+    }
 
-            try
+    public int AdicionarUsuario(UsuarioModel usuario)
+    {
+        var sql = @"INSERT INTO Usuarios (Nome, Email, Senha) OUTPUT INSERTED.Id_Usuario VALUES (@Nome, @Email, @Senha)";
+        var parameters = new List<SqlParameter>
+        {
+            new SqlParameter("@Nome", usuario.Nome),
+            new SqlParameter("@Email", usuario.Email),
+            new SqlParameter("@Senha", usuario.Senha)
+        };
+
+        try
+        {
+            using (SqlConnection connection = new SqlConnection(_connectionString))
             {
-                using (SqlConnection connection = new SqlConnection(_connectionString))
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(sql, connection))
                 {
-                    connection.Open();
-                    using (SqlCommand command = new SqlCommand(sql, connection))
-                    {
-                        command.Parameters.AddRange(parameters.ToArray());
-                        command.ExecuteNonQuery();
-                    }
+                    command.Parameters.AddRange(parameters.ToArray());
+                    var idUsuario = (int)command.ExecuteScalar();
+                    return idUsuario;
                 }
             }
-            catch (SqlException ex)
-            {
-                throw new Exception("Erro ao acessar o banco de dados.", ex);
-            }
+        }
+        catch (SqlException ex)
+        {
+            throw new Exception("Erro ao acessar o banco de dados.", ex);
         }
     }
 }

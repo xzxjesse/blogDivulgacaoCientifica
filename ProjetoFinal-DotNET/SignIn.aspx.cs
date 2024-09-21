@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using System.Web.UI;
 using Newtonsoft.Json;
 
@@ -27,15 +28,16 @@ namespace ProjetoFinal_DotNET
                 return;
             }
 
-            bool isCadastrado = await CadastrarUsuario(nome, email, senha);
+            int? userId = await CadastrarUsuario(nome, email, senha);
 
-            if (isCadastrado)
+            if (userId != null)
             {
-                lblMensagem.Text = "Cadastro realizado com sucesso!"; //add tempo e forma da mensagem
+                lblMensagem.Text = "Cadastro realizado com sucesso!";
                 lblMensagem.CssClass = "text-success";
                 lblMensagem.Visible = true;
 
-                Response.Redirect("Login.aspx"); //direcionar pro feed logado
+                Response.Redirect($"Profile.aspx?userId={userId}", false);
+                HttpContext.Current.ApplicationInstance.CompleteRequest();
             }
             else
             {
@@ -44,7 +46,7 @@ namespace ProjetoFinal_DotNET
             }
         }
 
-        private async Task<bool> CadastrarUsuario(string nome, string email, string senha)
+        private async Task<int?> CadastrarUsuario(string nome, string email, string senha)
         {
             try
             {
@@ -62,14 +64,23 @@ namespace ProjetoFinal_DotNET
                     string apiUrl = "https://localhost:7259/api/Login/cadastro";
                     HttpResponseMessage response = await client.PostAsync(apiUrl, content);
 
-                    return response.IsSuccessStatusCode; 
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseContent = await response.Content.ReadAsStringAsync();
+                        int userId = JsonConvert.DeserializeObject<int>(responseContent);
+                        return userId;
+                    }
+                    else
+                    {
+                        return null;
+                    }
                 }
             }
             catch (Exception ex)
             {
                 lblMensagem.Text = "Erro ao cadastrar o usuário: " + ex.Message;
                 lblMensagem.Visible = true;
-                return false;
+                return null;
             }
         }
     }

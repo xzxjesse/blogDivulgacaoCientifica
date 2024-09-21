@@ -121,8 +121,10 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 - Criar página de cadastro com nome, e-mail e senha. ✔️
 
 #### **20/09 - Página de Meus Artigos**
-- Estilizar páginas de acesso/cadastro.
-- Redirecionar páginas de acesso/cadastro.
+- Estilizar páginas de acesso/cadastro. ✔️
+- Redirecionar páginas de acesso/cadastro. ✔️
+
+#### **21/09 e 22/09 - Página de Meus Artigos**
 - Listar artigos publicados pelo usuário conectado.
 - Adicionar campos de título e conteúdo em publicação.
 - Armazenar publicações no banco de dados.

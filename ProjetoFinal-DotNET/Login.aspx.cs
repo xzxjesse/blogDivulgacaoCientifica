@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Web;
 using System.Web.UI;
 
 namespace ProjetoFinal_DotNET
@@ -24,13 +25,15 @@ namespace ProjetoFinal_DotNET
                 return;
             }
 
-            bool isAutenticado = await ValidarUsuario(email, senha);
+            int? idUsuario = await ValidarUsuario(email, senha);
 
-            if (isAutenticado)
+            if (idUsuario != null)
             {
                 lblMensagem.Visible = false;
-                // feed logado
-                Response.Redirect("Default.aspx");
+                Session["IdUsuario"] = idUsuario;
+
+                Response.Redirect("Profile.aspx", false);
+                HttpContext.Current.ApplicationInstance.CompleteRequest(); 
             }
             else
             {
@@ -39,22 +42,22 @@ namespace ProjetoFinal_DotNET
             }
         }
 
-        private async Task<bool> ValidarUsuario(string email, string senha)
+        private async Task<int?> ValidarUsuario(string email, string senha)
         {
             try
             {
                 using (var client = new HttpClient())
                 {
-                    string apiUrl = $"https://localhost:7259/api/Login?email={email}&senha={senha}";
+                    string apiUrl = $"https://localhost:7259/api/Login/login?email={email}&senha={senha}";
                     HttpResponseMessage response = await client.GetAsync(apiUrl);
 
                     if (response.IsSuccessStatusCode)
                     {
-                        return true; 
-                    }
-                    else
-                    {
-                        return false;
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        if (int.TryParse(responseBody, out int idUsuario))
+                        {
+                            return idUsuario;
+                        }
                     }
                 }
             }
@@ -62,8 +65,9 @@ namespace ProjetoFinal_DotNET
             {
                 lblMensagem.Text = "Erro ao validar o usuário: " + ex.Message;
                 lblMensagem.Visible = true;
-                return false;
             }
+
+            return null;
         }
     }
 }

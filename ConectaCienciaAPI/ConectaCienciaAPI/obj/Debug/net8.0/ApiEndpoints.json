@@ -56,6 +56,32 @@
     ]
   },
   {
+    "ContainingType": "ConectaCienciaAPI.Controllers.FeedController",
+    "Method": "PesquisaMeusArtigos",
+    "RelativePath": "api/Feed/MeusArtigos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_usuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ConectaCienciaAPI.Models.ArtigoModel, ConectaCienciaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ConectaCienciaAPI.Controllers.FormulariosController",
     "Method": "AdicionarArtigo",
     "RelativePath": "api/Formularios/artigo",
@@ -88,9 +114,35 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ConectaCienciaAPI.Controllers.LoginController",
+    "ContainingType": "LoginController",
+    "Method": "Register",
+    "RelativePath": "api/Login/cadastro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "ConectaCienciaAPI.Model.UsuarioModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LoginController",
     "Method": "Login",
-    "RelativePath": "api/Login",
+    "RelativePath": "api/Login/login",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -108,33 +160,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ConectaCienciaAPI.Model.UsuarioModel, ConectaCienciaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "ConectaCienciaAPI.Controllers.LoginController",
-    "Method": "Register",
-    "RelativePath": "api/Login/cadastro",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "usuario",
-        "Type": "ConectaCienciaAPI.Model.UsuarioModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ConectaCienciaAPI.Model.UsuarioModel",
+        "Type": "System.Int32",
         "MediaTypes": [
           "text/plain",
           "application/json",
