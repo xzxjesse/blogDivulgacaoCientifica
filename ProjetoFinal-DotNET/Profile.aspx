@@ -6,7 +6,7 @@
             <h2 class="text-center">Olá, <asp:Literal ID="UserNameLiteral" runat="server" Text="{nome}"></asp:Literal></h2>
 
             <div class="form-group d-flex justify-content-center">
-                <asp:Button ID="btnMeusArtigos" runat="server" Text="Meus artigos" CssClass="btn btn-primary w-100" />
+                <asp:Button ID="btnMeusArtigos" runat="server" Text="Meus artigos" CssClass="btn btn-primary w-100" OnClick="btnMeusArtigos_Click"/>
             </div>
 
             <div class="text-center mt-3">

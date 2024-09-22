@@ -96,11 +96,11 @@ namespace ConectaCienciaAPI.Repositories
         {
             var artigos = new List<ArtigoModel>();
             var sql = @"SELECT a.*, c.nome_categoria, u.nome, u.id_usuario
-                FROM Artigos a
-                JOIN Categorias c ON a.id_categoria = c.id_categoria
-                JOIN Usuarios u ON a.id_usuario = u.id_usuario
-                WHERE a.id_usuario = @id_usuario
-                ORDER BY a.data DESC;";
+                        FROM Artigos a
+                        JOIN Categorias c ON a.id_categoria = c.id_categoria
+                        JOIN Usuarios u ON a.id_usuario = u.id_usuario
+                        WHERE a.id_usuario = @id_usuario
+                        ORDER BY a.data DESC;";
 
             var parameters = new List<SqlParameter>
             {
@@ -120,7 +120,7 @@ namespace ConectaCienciaAPI.Repositories
                         {
                             while (reader.Read())
                             {
-                                artigos.Add(new ArtigoModel
+                                var artigo = new ArtigoModel
                                 {
                                     Id_Artigo = reader.GetInt32(reader.GetOrdinal("id_artigo")),
                                     Data = reader.GetDateTime(reader.GetOrdinal("data")),
@@ -136,7 +136,9 @@ namespace ConectaCienciaAPI.Repositories
                                         Id_Categoria = reader.GetInt32(reader.GetOrdinal("id_categoria")),
                                         Nome_Categoria = reader.GetString(reader.GetOrdinal("nome_categoria"))
                                     }
-                                });
+                                };
+
+                                artigos.Add(artigo);
                             }
                         }
                     }

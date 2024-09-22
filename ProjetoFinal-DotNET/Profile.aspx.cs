@@ -28,5 +28,11 @@ namespace ProjetoFinal_DotNET
 
             Response.Redirect("Login.aspx");
         }
+
+        protected void btnMeusArtigos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("MeusArtigos.aspx", false);
+            HttpContext.Current.ApplicationInstance.CompleteRequest();
+        }
     }
 }

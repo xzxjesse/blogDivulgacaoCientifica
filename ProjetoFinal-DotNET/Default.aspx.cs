@@ -166,7 +166,6 @@ namespace ProjetoFinal_DotNET
             }
         }
 
-
         private async Task BindArtigos()
         {
             await CarregarArtigos(null, null, null);

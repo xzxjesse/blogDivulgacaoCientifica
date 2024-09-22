@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\jeeve\\Documents\\projConecta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\meusartigos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\meusartigos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\Documents\\projConecta\\projetofinal-dotnet\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\meusartigos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\meusartigos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\editar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\editar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\publicar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\publicar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\Documents\\projConecta\\projetofinal-dotnet\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\Documents\\projConecta\\projetofinal-dotnet\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\projconecta\\projetofinal-dotnet\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,6 +83,72 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MeusArtigos.aspx",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\MeusArtigos.aspx",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\MeusArtigos.aspx",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\MeusArtigos.aspx",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\MeusArtigos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-22T14:52:25.508Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\About.aspx",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\About.aspx",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\About.aspx",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-22T15:58:37.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Default.aspx",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Default.aspx",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Default.aspx",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-22T15:03:19.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Login.aspx",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Login.aspx",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Login.aspx",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-22T15:03:23.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MeusArtigos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\MeusArtigos.aspx.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\MeusArtigos.aspx.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\MeusArtigos.aspx.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\MeusArtigos.aspx.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:54:32.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Site.Master.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Site.Master.cs",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Site.Master.cs",
@@ -63,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Site.Master",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Site.Master",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Site.Master",
@@ -76,7 +174,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "Publicar.aspx",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Publicar.aspx",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Publicar.aspx",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Publicar.aspx",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Publicar.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-22T15:29:11.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Editar.aspx",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Editar.aspx",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Editar.aspx",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Editar.aspx",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Editar.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-22T15:29:29.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Profile.aspx",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Profile.aspx",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Profile.aspx",
@@ -89,15 +213,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Profile.aspx.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Profile.aspx.cs",
               "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Profile.aspx.cs",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Profile.aspx.cs",
               "RelativeToolTip": "ProjetoFinal-DotNET\\Profile.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T14:05:48.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ProjetoFinal-DotNET\\Default.aspx.cs",
+              "RelativeToolTip": "ProjetoFinal-DotNET\\Default.aspx.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAkwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T15:07:06.155Z",
               "EditorCaption": ""
             }
           ]
