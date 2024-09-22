@@ -5,8 +5,8 @@ using System.Net.Http.Json;
 using System.Threading.Tasks;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using ProjetoFinal_DotNET.Dao.Domain;
-using static ProjetoFinal_DotNET.Dao.Domain.Formularios;
+using ProjetoFinal_DotNET.Model; 
+using static ProjetoFinal_DotNET.Model.Formularios;
 
 namespace ProjetoFinal_DotNET
 {
@@ -118,7 +118,6 @@ namespace ProjetoFinal_DotNET
             }
         }
 
-
         protected async void BtnEnviarArtigo_Click(object sender, EventArgs e)
         {
             string nome = txtNomeArtigo.Text.Trim();
@@ -171,9 +170,6 @@ namespace ProjetoFinal_DotNET
                 ExibirMensagem("alertError", "Erro ao salvar dados: " + ex.Message);
             }
         }
-
-
-
         private void ExibirMensagem(string idAlert, string mensagem)
         {
             ScriptManager.RegisterStartupScript(this, GetType(), "ShowAlert", $"mostrarMensagem('{idAlert}', '{mensagem}');", true);

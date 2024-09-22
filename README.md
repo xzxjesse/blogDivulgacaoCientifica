@@ -127,9 +127,9 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 #### **21/09 e 22/09 - Página de Meus Artigos**
 - Página de perfil. ✔️
 - Página de meus artigos. ✔️
-- Listar artigos publicados pelo usuário conectado.
-- Adicionar campos de título e conteúdo para publicação.
-- Armazenar publicações no banco de dados.
+- Listar artigos publicados pelo usuário conectado. ✔️ 
+- Adicionar campos de título, conteúdo e categoria para publicação. ✔️
+- Armazenar publicações no banco de dados. ✔️
 
 ### **Semana 3:**
 

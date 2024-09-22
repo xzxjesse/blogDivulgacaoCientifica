@@ -222,3 +222,4 @@ C:\Users\jeeve\Documents\projConecta\ConectaCienciaAPI\ConectaCienciaAPI\obj\Deb
 C:\Users\jeeve\Documents\projConecta\ConectaCienciaAPI\ConectaCienciaAPI\obj\Debug\net8.0\ConectaC.562DB539.Up2Date
 C:\Users\jeeve\Documents\projConecta\ConectaCienciaAPI\ConectaCienciaAPI\obj\Debug\net8.0\ConectaCienciaAPI.genruntimeconfig.cache
 C:\Users\jeeve\Documents\projConecta\ConectaCienciaAPI\ConectaCienciaAPI\obj\Debug\net8.0\ref\ConectaCienciaAPI.dll
+C:\Users\jeeve\Documents\projConecta\ConectaCienciaAPI\ConectaCienciaAPI\bin\Debug\net8.0\System.Security.Permissions.dll

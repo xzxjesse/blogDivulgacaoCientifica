@@ -57,6 +57,22 @@
   },
   {
     "ContainingType": "ConectaCienciaAPI.Controllers.FeedController",
+    "Method": "AdicionarPublicacao",
+    "RelativePath": "api/Feed/Artigo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "artigoModel",
+        "Type": "ConectaCienciaAPI.Models.ArtigoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConectaCienciaAPI.Controllers.FeedController",
     "Method": "PesquisaMeusArtigos",
     "RelativePath": "api/Feed/MeusArtigos",
     "HttpMethod": "GET",

@@ -1,11 +1,11 @@
-﻿using ProjetoFinal_DotNET.Dao.Domain;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using ProjetoFinal_DotNET.Model;
 
 namespace ProjetoFinal_DotNET
 {

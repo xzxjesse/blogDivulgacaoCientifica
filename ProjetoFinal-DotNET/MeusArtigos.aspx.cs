@@ -1,4 +1,4 @@
-﻿using ProjetoFinal_DotNET.Dao.Domain;
+﻿using ProjetoFinal_DotNET.Model;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;

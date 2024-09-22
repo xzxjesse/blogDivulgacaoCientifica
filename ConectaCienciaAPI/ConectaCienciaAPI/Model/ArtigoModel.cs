@@ -8,7 +8,7 @@ namespace ConectaCienciaAPI.Models
         public DateTime Data { get; set; }
         public string Titulo { get; set; }
         public string Conteudo { get; set; }
-        public UsuarioModel Usuario { get; set; }
         public CategoriaModel Categoria { get; set; }
+        public UsuarioSimplificado Usuario { get; set; }
     }
 }

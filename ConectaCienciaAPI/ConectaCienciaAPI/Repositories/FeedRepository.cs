@@ -68,7 +68,7 @@ namespace ConectaCienciaAPI.Repositories
                                     Data = reader.GetDateTime(reader.GetOrdinal("data")),
                                     Titulo = reader.GetString(reader.GetOrdinal("titulo")),
                                     Conteudo = reader.GetString(reader.GetOrdinal("conteudo")),
-                                    Usuario = new UsuarioModel
+                                    Usuario = new UsuarioSimplificado
                                     {
                                         Id_Usuario = reader.GetInt32(reader.GetOrdinal("id_usuario")),
                                         Nome = reader.GetString(reader.GetOrdinal("nome"))
@@ -126,7 +126,7 @@ namespace ConectaCienciaAPI.Repositories
                                     Data = reader.GetDateTime(reader.GetOrdinal("data")),
                                     Titulo = reader.GetString(reader.GetOrdinal("titulo")),
                                     Conteudo = reader.GetString(reader.GetOrdinal("conteudo")),
-                                    Usuario = new UsuarioModel
+                                    Usuario = new UsuarioSimplificado
                                     {
                                         Id_Usuario = reader.GetInt32(reader.GetOrdinal("id_usuario")),
                                         Nome = reader.GetString(reader.GetOrdinal("nome"))
@@ -151,5 +151,28 @@ namespace ConectaCienciaAPI.Repositories
 
             return artigos;
         }
+
+        public async Task AdicionarPublicacao(ArtigoModel artigoModel)
+        {
+            var sql = @"INSERT INTO Artigos (titulo, conteudo, id_categoria, id_usuario, nome, data) 
+                VALUES (@titulo, @conteudo, @id_categoria, @id_usuario, @nome, @data)";
+
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(sql, connection))
+                {
+                    command.Parameters.AddWithValue("@titulo", artigoModel.Titulo);
+                    command.Parameters.AddWithValue("@conteudo", artigoModel.Conteudo);
+                    command.Parameters.AddWithValue("@id_categoria", artigoModel.Categoria.Id_Categoria);
+                    command.Parameters.AddWithValue("@id_usuario", artigoModel.Usuario.Id_Usuario);
+                    command.Parameters.AddWithValue("@nome", artigoModel.Usuario.Nome);
+                    command.Parameters.AddWithValue("@data", artigoModel.Data);
+
+                    connection.Open();
+                    await command.ExecuteNonQueryAsync();
+                }
+            }
+        }
+
     }
 }

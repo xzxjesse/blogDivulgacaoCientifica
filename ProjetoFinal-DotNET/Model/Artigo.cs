@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ProjetoFinal_DotNET.Dao.Domain
+namespace ProjetoFinal_DotNET.Model
 {
     public class Artigo
     {
@@ -12,7 +12,7 @@ namespace ProjetoFinal_DotNET.Dao.Domain
         public DateTime Data { get; set; }
         public string Titulo { get; set; }
         public string Conteudo { get; set; }
-        public Usuario Usuario { get; set; }
+        public UsuarioSimplificado Usuario { get; set; }
         public Categoria Categoria { get; set; }
     }
 }
