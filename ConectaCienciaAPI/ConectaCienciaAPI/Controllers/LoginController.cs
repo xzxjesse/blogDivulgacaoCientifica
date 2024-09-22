@@ -15,7 +15,7 @@ public class LoginController : ControllerBase
     }
 
     [HttpGet("login")]
-    public ActionResult<int> Login(string email, string senha)
+    public ActionResult<dynamic> Login(string email, string senha)
     {
         if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(senha))
         {
@@ -27,7 +27,7 @@ public class LoginController : ControllerBase
             var user = _usuarioRepository.ObterUsuarioPorEmailESenha(email, senha);
             if (user != null)
             {
-                return Ok(user.Id_Usuario);
+                return Ok(new { Id_Usuario = user.Id_Usuario, Nome = user.Nome });
             }
             return Unauthorized("E-mail ou senha inválidos.");
         }
@@ -38,7 +38,7 @@ public class LoginController : ControllerBase
     }
 
     [HttpPost("cadastro")]
-    public ActionResult<int> Register([FromBody] UsuarioModel usuario)
+    public ActionResult<dynamic> Register([FromBody] UsuarioModel usuario)
     {
         if (usuario == null || string.IsNullOrEmpty(usuario.Nome) || string.IsNullOrEmpty(usuario.Email) || string.IsNullOrEmpty(usuario.Senha))
         {
@@ -48,11 +48,13 @@ public class LoginController : ControllerBase
         try
         {
             var idUsuario = _usuarioRepository.AdicionarUsuario(usuario);
-            return CreatedAtAction(nameof(Login), new { email = usuario.Email }, idUsuario);
+
+            return CreatedAtAction(nameof(Login), new { email = usuario.Email }, new { Id_Usuario = idUsuario, Nome = usuario.Nome });
         }
         catch (Exception ex)
         {
             return StatusCode(500, $"Erro interno no servidor: {ex.Message}");
         }
     }
+
 }

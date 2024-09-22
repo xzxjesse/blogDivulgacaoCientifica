@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF833E85-B640-4596-8B0F-7036CECEE0DF}|ConectaCienciaAPI\\ConectaCienciaAPI.csproj|c:\\users\\jeeve\\documents\\projconecta\\conectacienciaapi\\conectacienciaapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF833E85-B640-4596-8B0F-7036CECEE0DF}|ConectaCienciaAPI\\ConectaCienciaAPI.csproj|solutionrelative:conectacienciaapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF833E85-B640-4596-8B0F-7036CECEE0DF}|ConectaCienciaAPI\\ConectaCienciaAPI.csproj|c:\\users\\jeeve\\documents\\projconecta\\conectacienciaapi\\conectacienciaapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF833E85-B640-4596-8B0F-7036CECEE0DF}|ConectaCienciaAPI\\ConectaCienciaAPI.csproj|solutionrelative:conectacienciaapi\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 317,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +39,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\ConectaCienciaAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ConectaCienciaAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\ConectaCienciaAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ConectaCienciaAPI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T14:12:59.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\ConectaCienciaAPI\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "ConectaCienciaAPI\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\ConectaCienciaAPI\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "ConectaCienciaAPI\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwFgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:32:37.446Z",
+              "EditorCaption": ""
             }
           ]
         }

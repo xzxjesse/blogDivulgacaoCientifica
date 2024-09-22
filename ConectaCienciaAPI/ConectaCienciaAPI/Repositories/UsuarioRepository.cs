@@ -17,7 +17,8 @@ public class UsuarioRepository
     public UsuarioModel ObterUsuarioPorEmailESenha(string email, string senha)
     {
         UsuarioModel usuario = null;
-        var sql = @"SELECT * FROM Usuarios WHERE Email = @Email AND Senha = @Senha";
+        var sql = @"SELECT * FROM Usuarios 
+                    WHERE Email = @Email AND Senha = @Senha";
         var parameters = new List<SqlParameter>
         {
             new SqlParameter("@Email", email),
@@ -59,7 +60,8 @@ public class UsuarioRepository
 
     public int AdicionarUsuario(UsuarioModel usuario)
     {
-        var sql = @"INSERT INTO Usuarios (Nome, Email, Senha) OUTPUT INSERTED.Id_Usuario VALUES (@Nome, @Email, @Senha)";
+        var sql = @"INSERT INTO Usuarios (Nome, Email, Senha) 
+                    OUTPUT INSERTED.Id_Usuario VALUES (@Nome, @Email, @Senha)";
         var parameters = new List<SqlParameter>
         {
             new SqlParameter("@Nome", usuario.Nome),

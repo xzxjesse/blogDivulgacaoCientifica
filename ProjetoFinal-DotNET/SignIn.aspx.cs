@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.UI;
 using Newtonsoft.Json;
+using ProjetoFinal_DotNET.Model;
 
 namespace ProjetoFinal_DotNET
 {
@@ -28,15 +29,18 @@ namespace ProjetoFinal_DotNET
                 return;
             }
 
-            int? userId = await CadastrarUsuario(nome, email, senha);
+            var usuario = await CadastrarUsuario(nome, email, senha);
 
-            if (userId != null)
+            if (usuario != null)
             {
                 lblMensagem.Text = "Cadastro realizado com sucesso!";
                 lblMensagem.CssClass = "text-success";
                 lblMensagem.Visible = true;
 
-                Response.Redirect($"Profile.aspx?userId={userId}", false);
+                Session["IdUsuario"] = usuario.Id_Usuario;
+                Session["NomeUsuario"] = usuario.Nome;
+
+                Response.Redirect("Profile.aspx", false);
                 HttpContext.Current.ApplicationInstance.CompleteRequest();
             }
             else
@@ -46,7 +50,7 @@ namespace ProjetoFinal_DotNET
             }
         }
 
-        private async Task<int?> CadastrarUsuario(string nome, string email, string senha)
+        private async Task<Usuario> CadastrarUsuario(string nome, string email, string senha)
         {
             try
             {
@@ -67,8 +71,10 @@ namespace ProjetoFinal_DotNET
                     if (response.IsSuccessStatusCode)
                     {
                         string responseContent = await response.Content.ReadAsStringAsync();
-                        int userId = JsonConvert.DeserializeObject<int>(responseContent);
-                        return userId;
+
+                        Usuario user = JsonConvert.DeserializeObject<Usuario>(responseContent);
+
+                        return user; 
                     }
                     else
                     {

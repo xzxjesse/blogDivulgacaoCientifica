@@ -3,6 +3,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.UI;
+using Newtonsoft.Json;
+using ProjetoFinal_DotNET.Model;
 
 namespace ProjetoFinal_DotNET
 {
@@ -25,15 +27,17 @@ namespace ProjetoFinal_DotNET
                 return;
             }
 
-            int? idUsuario = await ValidarUsuario(email, senha);
+            var usuario = await ValidarUsuario(email, senha);
 
-            if (idUsuario != null)
+            if (usuario != null)
             {
                 lblMensagem.Visible = false;
-                Session["IdUsuario"] = idUsuario;
+
+                Session["IdUsuario"] = usuario.Id_Usuario;
+                Session["NomeUsuario"] = usuario.Nome;
 
                 Response.Redirect("Profile.aspx", false);
-                HttpContext.Current.ApplicationInstance.CompleteRequest(); 
+                HttpContext.Current.ApplicationInstance.CompleteRequest();
             }
             else
             {
@@ -42,7 +46,7 @@ namespace ProjetoFinal_DotNET
             }
         }
 
-        private async Task<int?> ValidarUsuario(string email, string senha)
+        private async Task<Usuario> ValidarUsuario(string email, string senha)
         {
             try
             {
@@ -54,9 +58,12 @@ namespace ProjetoFinal_DotNET
                     if (response.IsSuccessStatusCode)
                     {
                         string responseBody = await response.Content.ReadAsStringAsync();
-                        if (int.TryParse(responseBody, out int idUsuario))
+
+                        Usuario usuario = JsonConvert.DeserializeObject<Usuario>(responseBody);
+
+                        if (usuario != null)
                         {
-                            return idUsuario;
+                            return usuario;
                         }
                     }
                 }

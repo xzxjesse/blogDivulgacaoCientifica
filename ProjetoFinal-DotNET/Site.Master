@@ -49,10 +49,12 @@
                 </button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Forms">Sua Voz na Ciência</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Login">Acesso</a></li>
-                    </ul>
+                            <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link" runat="server" href="~/Forms">Sua Voz na Ciência</a></li>
+                            <li class="nav-item">
+                                <asp:HyperLink ID="profileLink" runat="server" CssClass="nav-link">Perfil</asp:HyperLink>
+                            </li>
+                     </ul>
                 </div>
             </div>
         </nav>
