@@ -26,12 +26,14 @@
                             <div class="row justify-content-end">
                                 <div class="col-auto">
                                     <div class="list-group">
-                                        <a href="Editar.aspx" class="list-group-item list-group-item-action" style="width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-                                            <i class="fas fa-edit"></i> Editar
+                                        <a href="#" class="list-group-item list-group-item-action" style="width: 200px;" 
+                                           data-bs-toggle="modal" data-bs-target="#editModal" 
+                                           onclick="preencherModal('<%# Eval("Id_Artigo") %>', '<%# Eval("Titulo") %>', 
+                                           '<%# Eval("Conteudo") %>', '<%# Eval("Categoria.Id_Categoria") %>', 
+                                           '<%# Eval("Categoria.Nome_Categoria") %>')">
+                                           <i class="fas fa-edit"></i> Editar
                                         </a>
-                                        <a href="#" class="list-group-item list-group-item-action text-danger" style="width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
-                                            <i class="fas fa-trash-alt"></i> Excluir
-                                        </a>
+                                        <asp:Button ID="btnExcluir" runat="server" Text="Excluir" CssClass="list-group-item list-group-item-action text-danger" CommandArgument='<%# Eval("Id_Artigo") %>' OnClick="btnExcluir_Click" />
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +47,47 @@
             </ItemTemplate>
         </asp:Repeater>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     </div>
+
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title" id="editModalLabel">Editar Artigo</h5>
+                </div>
+                <div class="modal-body">
+                    <asp:HiddenField ID="hfArtigoId" runat="server" />
+                    <div class="mb-3 text-center">
+                        <label for="txtTitulo" class="form-label">Título</label>
+                        <asp:TextBox ID="txtTitulo" runat="server" CssClass="form-control mx-auto" style="max-width: 300px;" />
+                    </div>
+                    <div class="mb-3 text-center">
+                        <label for="txtConteudo" class="form-label">Conteúdo</label>
+                        <asp:TextBox ID="txtConteudo" runat="server" TextMode="MultiLine" CssClass="form-control mx-auto" Rows="5" style="max-width: 300px;" />
+                    </div>
+                    <div class="mb-3 text-center">
+                        <label for="ddlCategorias" class="form-label">Categoria</label>
+                        <asp:DropDownList ID="ddlCategorias" runat="server" CssClass="form-select mx-auto" style="max-width: 300px;"></asp:DropDownList>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <asp:Button ID="btnSalvar" runat="server" Text="Salvar" CssClass="btn btn-primary" OnClick="btnSalvar_Click" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function preencherModal(id, titulo, conteudo, categoriaId, nomeCategoria) {
+            document.getElementById('<%= hfArtigoId.ClientID %>').value = id;
+            document.getElementById('<%= txtTitulo.ClientID %>').value = titulo;
+            document.getElementById('<%= txtConteudo.ClientID %>').value = conteudo;
+            document.getElementById('<%= ddlCategorias.ClientID %>').value = categoriaId;
+        }
+
+    </script>
+
 </asp:Content>

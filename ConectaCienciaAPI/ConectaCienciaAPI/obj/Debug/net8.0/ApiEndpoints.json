@@ -73,6 +73,59 @@
   },
   {
     "ContainingType": "ConectaCienciaAPI.Controllers.FeedController",
+    "Method": "ObterArtigoPorId",
+    "RelativePath": "api/Feed/Artigo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConectaCienciaAPI.Controllers.FeedController",
+    "Method": "DeletarPublicacao",
+    "RelativePath": "api/Feed/Artigo/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConectaCienciaAPI.Controllers.FeedController",
+    "Method": "AtualizarPublicacao",
+    "RelativePath": "api/Feed/Artigo/Patch/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "artigoModel",
+        "Type": "ConectaCienciaAPI.Models.ArtigoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConectaCienciaAPI.Controllers.FeedController",
     "Method": "PesquisaMeusArtigos",
     "RelativePath": "api/Feed/MeusArtigos",
     "HttpMethod": "GET",

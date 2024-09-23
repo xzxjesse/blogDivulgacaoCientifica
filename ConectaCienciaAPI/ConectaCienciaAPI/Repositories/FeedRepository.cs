@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using ConectaCienciaAPI.Model;
 using ConectaCienciaAPI.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ConectaCienciaAPI.Repositories
 {
@@ -173,6 +174,89 @@ namespace ConectaCienciaAPI.Repositories
                 }
             }
         }
+        public async Task<ArtigoModel> ObterPublicacaoPorId(int id)
+        {
+            ArtigoModel artigo = null;
+            var sql = @"SELECT a.*, c.nome_categoria, u.nome, u.id_usuario
+                FROM Artigos a
+                JOIN Categorias c ON a.id_categoria = c.id_categoria
+                JOIN Usuarios u ON a.id_usuario = u.id_usuario
+                WHERE a.id_artigo = @id_artigo";
 
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(sql, connection))
+                {
+                    command.Parameters.AddWithValue("@id_artigo", id);
+                    connection.Open();
+                    using (SqlDataReader reader = await command.ExecuteReaderAsync())
+                    {
+                        if (await reader.ReadAsync())
+                        {
+                            artigo = new ArtigoModel
+                            {
+                                Id_Artigo = reader.GetInt32(reader.GetOrdinal("id_artigo")),
+                                Data = reader.GetDateTime(reader.GetOrdinal("data")),
+                                Titulo = reader.GetString(reader.GetOrdinal("titulo")),
+                                Conteudo = reader.GetString(reader.GetOrdinal("conteudo")),
+                                Usuario = new UsuarioSimplificado
+                                {
+                                    Id_Usuario = reader.GetInt32(reader.GetOrdinal("id_usuario")),
+                                    Nome = reader.GetString(reader.GetOrdinal("nome"))
+                                },
+                                Categoria = new CategoriaModel
+                                {
+                                    Id_Categoria = reader.GetInt32(reader.GetOrdinal("id_categoria")),
+                                    Nome_Categoria = reader.GetString(reader.GetOrdinal("nome_categoria"))
+                                }
+                            };
+                        }
+                    }
+                }
+            }
+
+            return artigo;
+        }
+
+        public async Task<bool> AtualizarPublicacao(ArtigoModel artigoModel)
+        {
+            var sql = @"UPDATE Artigos
+                SET titulo = @titulo,
+                    conteudo = @conteudo,
+                    id_categoria = @id_categoria
+                WHERE id_artigo = @id_artigo";
+
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(sql, connection))
+                {
+                    command.Parameters.AddWithValue("@titulo", artigoModel.Titulo);
+                    command.Parameters.AddWithValue("@conteudo", artigoModel.Conteudo);
+                    command.Parameters.AddWithValue("@id_categoria", artigoModel.Categoria.Id_Categoria);
+                    command.Parameters.AddWithValue("@id_artigo", artigoModel.Id_Artigo);
+
+                    connection.Open();
+                    int rowsAffected = await command.ExecuteNonQueryAsync();
+                    return rowsAffected > 0;
+                }
+            }
+        }
+
+        public async Task<bool> DeletarPublicacao(int id)
+        {
+            var sql = @"DELETE FROM Artigos WHERE id_artigo = @id_artigo";
+
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(sql, connection))
+                {
+                    command.Parameters.AddWithValue("@id_artigo", id);
+
+                    connection.Open();
+                    int rowsAffected = await command.ExecuteNonQueryAsync();
+                    return rowsAffected > 0;
+                }
+            }
+        }
     }
 }

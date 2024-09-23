@@ -124,20 +124,22 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 - Estilizar páginas de acesso/cadastro. ✔️
 - Redirecionar páginas de acesso/cadastro. ✔️
 
-#### **21/09 e 22/09 - Página de Meus Artigos**
+#### **21/09 e 22/09 - Listar, Editar e Apagar Publicação**
 - Página de perfil. ✔️
 - Página de meus artigos. ✔️
 - Listar artigos publicados pelo usuário conectado. ✔️ 
 - Adicionar campos de título, conteúdo e categoria para publicação. ✔️
 - Armazenar publicações no banco de dados. ✔️
+- Implementar edição de artigos com campos pré preenchidos. ✔️
+- Implementar exclusão de artigos publicados pelo usuário. ✔️
 
 ### **Semana 3:**
 
-#### **23/09 - Editar e Apagar Publicação**
-- Implementar edição de artigos com campos pré preenchidos.
-- Implementar exclusão de artigos publicados pelo usuário.
+#### **23/09 - Testes**
+- Teste API.
+- Testes unitários.
 
-#### **24/09 - Documentação e testes**
+#### **24/09 - Documentação**
 - Preparar documentação da API.
 - Preparar documentação do WebForms.
 
