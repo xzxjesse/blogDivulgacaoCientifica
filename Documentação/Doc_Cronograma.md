@@ -80,7 +80,7 @@
 
 #### **24/09 - Documentação**
 - Realizar melhorias do WebForms. ✔️
-- Documentar WebForms. 
+- Documentar WebForms. ✔️
 - Documentar API. ✔️
 - Documentar Testes. ✔️
 - Documentar Banco de dados. ✔️
@@ -89,4 +89,5 @@
 
 #### **25/09 - Preparo da Apresentação Final**
 - Revisar o projeto.
-- Preparar a demonstração para a apresentação final.
+- Preparar PowerPoint baseado nas dumentações. 
+- Preparar o Banco de Dados para demonstração.
