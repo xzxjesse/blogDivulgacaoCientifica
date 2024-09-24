@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "TesteAPI_ConectaCiencia\\TestLogin.cs",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestLogin.cs",
               "RelativeToolTip": "TesteAPI_ConectaCiencia\\TestLogin.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T20:02:40.13Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "TesteAPI_ConectaCiencia\\TestFormulario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T20:02:04.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T20:02:04.568Z"
             },
             {
               "$type": "Document",
@@ -88,21 +87,19 @@
               "RelativeToolTip": "TesteAPI_ConectaCiencia\\TestCategoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T19:25:44.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T19:25:44.891Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ConectaCienciaAPI",
+              "Title": "ConectaCienciaAPI.csproj",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
               "RelativeDocumentMoniker": "ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
               "RelativeToolTip": "ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-24T19:22:28.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T19:22:28.051Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "TesteAPI_ConectaCiencia\\TestFeed.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T19:10:55.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T19:10:55.382Z"
             }
           ]
         }

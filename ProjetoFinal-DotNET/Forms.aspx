@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="Formulários" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Forms.aspx.cs" Inherits="ProjetoFinal_DotNET.Forms" Async="true"%>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div id="alertSuccess" class="alert alert-success d-none text-center" role="alert"></div>
+    <div id="alertError" class="alert alert-danger d-none text-center" role="alert"></div>
+
+
     <div class="d-flex justify-content-center align-items-center vh-100">
         <div class="container p-4" style="max-width: 1200px;"> 
             <div class="row">
@@ -56,16 +61,27 @@
         </div>
     </div>
 
-
     <script type="text/javascript">
         function mostrarMensagem(idAlert, mensagem) {
-            var alert = document.getElementById(idAlert);
-            alert.textContent = mensagem;
-            alert.classList.remove('d-none');
+            var alertSuccess = document.getElementById('alertSuccess');
+            var alertError = document.getElementById('alertError');
+
+            if (idAlert === "alertSuccess") {
+                alertSuccess.textContent = mensagem;
+                alertSuccess.classList.remove('d-none');
+                alertError.classList.add('d-none'); 
+            } else if (idAlert === "alertError") {
+                alertError.textContent = mensagem;
+                alertError.classList.remove('d-none');
+                alertSuccess.classList.add('d-none'); 
+            }
+
             setTimeout(function () {
-                alert.classList.add('d-none');
+                alertSuccess.classList.add('d-none');
+                alertError.classList.add('d-none');
             }, 5000);
         }
+
 
         function validarCamposTema() {
             var nomeTema = document.getElementById('<%= txtNomeTema.ClientID %>').value.trim();
