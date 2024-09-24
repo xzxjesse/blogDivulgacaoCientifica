@@ -141,7 +141,7 @@ CREATE TABLE Usuarios (
 - **Usuarios** são referenciados por:
   - **Artigos** (id_usuario)
 
-## Operações Básicas
+## Inserção de dados
 
 ### Inserir Categoria
 ```sql
