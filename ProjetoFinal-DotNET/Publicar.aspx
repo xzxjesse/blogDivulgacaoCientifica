@@ -5,21 +5,21 @@
             <h2 class="text-center">Publicar Artigo</h2>
 
             <div class="form-group d-flex justify-content-center">
-                <asp:TextBox ID="txtTitulo" runat="server" CssClass="form-control" Placeholder="Título*" required></asp:TextBox>
+                <asp:TextBox ID="txtTitulo" runat="server" CssClass="form-control" Placeholder="Título*" required onkeyup="verificarCampos()"></asp:TextBox>
             </div>
 
             <div class="form-group d-flex justify-content-center">
-                <asp:TextBox ID="txtConteudo" runat="server" TextMode="MultiLine" CssClass="form-control" Rows="5" Placeholder="Conteúdo*" required></asp:TextBox>
+                <asp:TextBox ID="txtConteudo" runat="server" TextMode="MultiLine" CssClass="form-control" Rows="5" Placeholder="Conteúdo*" required onkeyup="verificarCampos()"></asp:TextBox>
             </div>
 
             <div class="form-group d-flex justify-content-center">
-                <asp:DropDownList ID="ddlCategoriaArtigo" runat="server" CssClass="form-control" required>
+                <asp:DropDownList ID="ddlCategoriaArtigo" runat="server" CssClass="form-control" required onchange="verificarCampos()">
                     <asp:ListItem Text="Selecione uma Categoria" Value="" />
                 </asp:DropDownList>
             </div>
 
             <div class="text-center">
-                <asp:Button ID="btnPublicar" runat="server" Text="Publicar" CssClass="btn btn-primary" OnClick="btnPublicar_Click" />
+                <asp:Button ID="btnPublicar" runat="server" Text="Publicar" CssClass="btn btn-primary" OnClick="btnPublicar_Click" Disabled="True" />
             </div>
 
             <div>
@@ -27,4 +27,16 @@
             </div>
         </div>
     </div>
+
+     <script type="text/javascript">
+         function verificarCampos() {
+             var titulo = document.getElementById('<%= txtTitulo.ClientID %>').value.trim();
+         var conteudo = document.getElementById('<%= txtConteudo.ClientID %>').value.trim();
+         var categoria = document.getElementById('<%= ddlCategoriaArtigo.ClientID %>').value;
+         var botaoPublicar = document.getElementById('<%= btnPublicar.ClientID %>');
+
+             botaoPublicar.disabled = !(titulo && conteudo && categoria);
+         }
+     </script>
+
 </asp:Content>
