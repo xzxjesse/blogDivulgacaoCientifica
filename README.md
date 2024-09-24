@@ -136,8 +136,7 @@ O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o ac
 ### **Semana 3:**
 
 #### **23/09 - Testes**
-- Teste API.
-- Testes unitários.
+- Teste unitários API. ✔️
 
 #### **24/09 - Documentação**
 - Preparar documentação da API.
