@@ -6,15 +6,15 @@
             <h2 class="text-center">Acesso</h2>
 
             <div class="form-group d-flex justify-content-center">
-                    <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" placeholder="E-mail" />
+                <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" placeholder="E-mail*" OnKeyUp="validarCampos();" />
             </div>
 
             <div class="form-group d-flex justify-content-center">
-                    <asp:TextBox ID="txtSenha" runat="server" CssClass="form-control" TextMode="Password" placeholder="Senha" />
+                <asp:TextBox ID="txtSenha" runat="server" CssClass="form-control" TextMode="Password" placeholder="Senha*" OnKeyUp="validarCampos();" />
             </div>
 
             <div class="text-center">
-                <asp:Button ID="btnLogin" runat="server" Text="Entrar" CssClass="btn btn-primary" OnClick="btnLogin_Click" />
+                <asp:Button ID="btnLogin" runat="server" Text="Entrar" CssClass="btn btn-primary" OnClick="btnLogin_Click" Enabled="false" />
             </div>
 
             <div>
@@ -26,4 +26,15 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        function validarCampos() {
+            var email = document.getElementById('<%= txtEmail.ClientID %>').value.trim();
+            var senha = document.getElementById('<%= txtSenha.ClientID %>').value.trim();
+            var btnLogin = document.getElementById('<%= btnLogin.ClientID %>');
+
+            btnLogin.disabled = !(email && senha);
+        }
+    </script>
+
 </asp:Content>

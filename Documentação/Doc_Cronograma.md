@@ -79,7 +79,7 @@
 - Teste unitários API. ✔️
 
 #### **24/09 - Documentação**
-- Realizar melhorias do WebForms.
+- Realizar melhorias do WebForms. ✔️
 - Documentar WebForms. 
 - Documentar API. ✔️
 - Documentar Testes. ✔️

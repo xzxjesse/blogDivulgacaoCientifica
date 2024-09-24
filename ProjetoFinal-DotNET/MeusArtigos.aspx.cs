@@ -16,6 +16,13 @@ namespace ProjetoFinal_DotNET
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["IdUsuario"] == null || Session["NomeUsuario"] == null)
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+                return;
+            }
+
             if (!IsPostBack)
             {
                 RegisterAsyncTask(new PageAsyncTask(async () =>
@@ -88,7 +95,7 @@ namespace ProjetoFinal_DotNET
                     }
                     else
                     {
-                        lblMensagem.Text = "Nenhum artigo encontrado.";
+                        lblMensagem.Text = "Sem artigos publicados ainda, que tal fazer uma publicação?";
                         lblMensagem.Visible = true;
                         ArticlesRepeater.DataSource = null;
                         ArticlesRepeater.DataBind();

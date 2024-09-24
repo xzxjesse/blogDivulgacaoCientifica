@@ -82,7 +82,6 @@
             }, 5000);
         }
 
-
         function validarCamposTema() {
             var nomeTema = document.getElementById('<%= txtNomeTema.ClientID %>').value.trim();
             var emailTema = document.getElementById('<%= txtEmailTema.ClientID %>').value.trim();

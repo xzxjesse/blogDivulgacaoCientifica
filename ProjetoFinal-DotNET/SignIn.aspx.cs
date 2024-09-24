@@ -74,7 +74,7 @@ namespace ProjetoFinal_DotNET
 
                         Usuario user = JsonConvert.DeserializeObject<Usuario>(responseContent);
 
-                        return user; 
+                        return user;
                     }
                     else
                     {
