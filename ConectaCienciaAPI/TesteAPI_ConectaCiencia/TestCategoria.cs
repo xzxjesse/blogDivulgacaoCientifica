@@ -1,8 +1,6 @@
 ﻿using ConectaCienciaAPI.Model;
 using System.Net;
 using System.Net.Http.Json;
-using System.Threading.Tasks;
-using Xunit;
 
 public class TestCategoria
 {

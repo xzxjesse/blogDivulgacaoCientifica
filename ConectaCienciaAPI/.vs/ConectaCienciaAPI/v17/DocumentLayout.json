@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|c:\\users\\jeeve\\documents\\projconecta\\conectacienciaapi\\testeapi_conectaciencia\\testfeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|solutionrelative:testeapi_conectaciencia\\testfeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|c:\\users\\jeeve\\documents\\projconecta\\conectacienciaapi\\testeapi_conectaciencia\\testcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|solutionrelative:testeapi_conectaciencia\\testcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|c:\\users\\jeeve\\documents\\projconecta\\conectacienciaapi\\testeapi_conectaciencia\\testlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|solutionrelative:testeapi_conectaciencia\\testlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|c:\\users\\jeeve\\documents\\projconecta\\conectacienciaapi\\testeapi_conectaciencia\\testformulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|solutionrelative:testeapi_conectaciencia\\testformulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|c:\\users\\jeeve\\documents\\projconecta\\conectacienciaapi\\testeapi_conectaciencia\\testlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|solutionrelative:testeapi_conectaciencia\\testlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|c:\\users\\jeeve\\documents\\projconecta\\conectacienciaapi\\testeapi_conectaciencia\\testcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|solutionrelative:testeapi_conectaciencia\\testcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF833E85-B640-4596-8B0F-7036CECEE0DF}|ConectaCienciaAPI\\ConectaCienciaAPI.csproj|c:\\users\\jeeve\\documents\\projconecta\\conectacienciaapi\\conectacienciaapi\\conectacienciaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF833E85-B640-4596-8B0F-7036CECEE0DF}|ConectaCienciaAPI\\ConectaCienciaAPI.csproj|solutionrelative:conectacienciaapi\\conectacienciaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|c:\\users\\jeeve\\documents\\projconecta\\conectacienciaapi\\testeapi_conectaciencia\\testfeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9BEDCB-2D7E-42B7-AB19-A01E33AD822D}|TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj|solutionrelative:testeapi_conectaciencia\\testfeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 317,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,54 +54,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TestLogin.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestLogin.cs",
               "RelativeDocumentMoniker": "TesteAPI_ConectaCiencia\\TestLogin.cs",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestLogin.cs",
               "RelativeToolTip": "TesteAPI_ConectaCiencia\\TestLogin.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:54:48.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestFormulario.cs",
-              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestFormulario.cs",
-              "RelativeDocumentMoniker": "TesteAPI_ConectaCiencia\\TestFormulario.cs",
-              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestFormulario.cs",
-              "RelativeToolTip": "TesteAPI_ConectaCiencia\\TestFormulario.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:53:36.684Z",
+              "WhenOpened": "2024-09-24T20:02:40.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TestFormulario.cs",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestFormulario.cs",
+              "RelativeDocumentMoniker": "TesteAPI_ConectaCiencia\\TestFormulario.cs",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestFormulario.cs",
+              "RelativeToolTip": "TesteAPI_ConectaCiencia\\TestFormulario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T20:02:04.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TestCategoria.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestCategoria.cs",
               "RelativeDocumentMoniker": "TesteAPI_ConectaCiencia\\TestCategoria.cs",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestCategoria.cs",
               "RelativeToolTip": "TesteAPI_ConectaCiencia\\TestCategoria.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T23:18:31.52Z",
+              "WhenOpened": "2024-09-24T19:25:44.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "ConectaCienciaAPI",
+              "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
+              "RelativeDocumentMoniker": "ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
+              "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
+              "RelativeToolTip": "ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-24T19:22:28.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TestFeed.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestFeed.cs",
               "RelativeDocumentMoniker": "TesteAPI_ConectaCiencia\\TestFeed.cs",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\projConecta\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TestFeed.cs",
               "RelativeToolTip": "TesteAPI_ConectaCiencia\\TestFeed.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAcwI4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T23:17:42.392Z",
+              "WhenOpened": "2024-09-24T19:10:55.382Z",
               "EditorCaption": ""
             }
           ]

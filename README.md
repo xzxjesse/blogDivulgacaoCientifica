@@ -1,147 +1,90 @@
-# **MVP: Blog de Divulgação Científica**
+# **Projeto Blog de Divulgação Científica**
 
-**Academia .Net**  
-**Projeto Final - .NET Core**  
-**Autora: Jéssica Eveline**
-
----
-
-## **Proposta**
-
-O **Blog de Divulgação Científica** é uma plataforma destinada a tornar o acesso a artigos científicos mais interativo e acessível. O propósito é criar um espaço onde pesquisadores, professores e estudantes possam compartilhar e explorar conhecimento científico de maneira dinâmica, buscando promover uma experiência colaborativa. O objetivo é transformar o site em um ponto de encontro para o compartilhamento de conhecimento e discussões científicas.
-
----
-
-## **Público-Alvo**
-
-### **Professores**
-- **Faixa etária**: Adultos e idosos.
-- **Interesse**: Desenvolvimento de materiais educativos para a comunidade acadêmica ou não.
-- **Motivações**:
-  - Modernizar os conteúdos.
-  - Tornar acessíveis os temas trabalhados em aula.
-  - Implementar abordagens interativas em aula.
-
-### **Estudantes Universitários**
-- **Faixa etária**: Adultos e idosos.
-- **Interesse**: Praticar as ideias desenvolvidas em aula e contribuir para a divulgação científica.
-- **Motivações**:
-  - Acessar materiais já produzidos.
-  - Enriquecer o currículo com contribuições científicas.
-  - Sugerir temas para serem abordados em aula e no blog.
+## **Sumário**
+1. [Arquitetura do Projeto](#arquitetura-do-projeto)
+   - [Banco de Dados](#banco-de-dados)
+   - [API](#api)
+   - [Web Forms](#web-forms)
+   - [Estilo](#estilo)
+   - [Outras Considerações](#outras-considerações)
+2. [Como Rodar o Projeto](#como-rodar-o-projeto)
+   - [1. Clonar o Repositório](#1-clonar-o-repositório)
+   - [2. Configurar o Banco de Dados](#2-configurar-o-banco-de-dados)
+   - [3. Rodar a API](#3-rodar-a-api)
+   - [4. Rodar os Web Forms](#4-rodar-os-web-forms)
+   - [5. Acessar o Aplicativo](#5-acessar-o-aplicativo)
+   - [Considerações Finais](#considerações-finais)
 
 ---
 
-## **Funcionalidades**
+## **Arquitetura do Projeto**
 
-### **Essenciais:**
-- **Sobre**: Página que apresenta o objetivo do blog e informações sobre os autores.
-- **Feed de Artigos**: Exibição de todos os artigos publicados, organizados cronologicamente.
-- **Filtros**: Filtragem por categoria, palavra-chave ou data.
-- **Sugerir Publicação**: Formulário para sugerir novos temas ou tópicos.
-- **Sugerir Tema**: Opção para que os leitores sugiram temas para postagens futuras.
+### **Banco de Dados**
+**SQL Server**  
+Utiliza o SQL Server como sistema de gerenciamento de banco de dados para armazenar e gerenciar todas as informações do projeto, incluindo categorias, artigos, sugestões e usuários. O banco de dados foi estruturado com tabelas otimizadas para garantir a integridade dos dados e a eficiência nas operações de consulta.
 
-### **Desejáveis:**
-- **Login**: Sistema de autenticação para criação de contas e acesso a funcionalidades exclusivas.
-- **Publicar Artigos**: Usuários autenticados podem criar e publicar seus próprios artigos.
-- **Acessar Artigos**: Usuários autenticados podem visualizar seus artigos publicados.
-- **Editar Publicação**: Usuários podem editar suas próprias postagens.
-- **Apagar Publicação**: Exclusão de postagens pessoais, restrita ao autor.
-- **Curtir Artigos**: Usuários conectados podem curtir postagens.
-- **Comentar Artigos**: Área de comentários para discussão entre leitores e autores.
-- **Chat Privado**: Sistema de mensagens privadas entre usuários autenticados.
+### **API**
+**ASP.NET Core Web API**  
+A API é responsável pela comunicação entre o frontend e o backend, permitindo operações de CRUD (Criar, Ler, Atualizar, Deletar) para os diferentes recursos do sistema, como usuários, artigos, categorias e sugestões. A API implementa autenticação e autorização, garantindo a segurança das operações sensíveis. Além disso, são utilizados padrões RESTful para a estruturação dos endpoints, proporcionando uma interface intuitiva.
 
-### **Não Desejáveis:**
-- **Verificação de Artigos Publicados**: Não é necessário verificar se os artigos foram publicados em revistas acadêmicas.
-- **Verificação de Plágio**: Sem prioridade para a implementação de sistemas automáticos de verificação de plágio ou IA.
-- **Total de Visualizações no Post**: Não exibe o número de visualizações dos artigos.
+### **Web Forms**
+**ASP.NET Web Forms**  
+A interface do usuário é construída utilizando Web Forms, permitindo a criação de páginas dinâmicas e interativas. Essa abordagem facilita a implementação de lógica e de eventos nas páginas. O uso de Web Forms também permite uma integração fluida com a API, garantindo uma experiência de usuário responsiva.
+
+### **Estilo**
+**Bootstrap**  
+O design do projeto é baseado no framework Bootstrap, que proporciona um layout responsivo e moderno. Com o Bootstrap, é possível garantir que a aplicação se adapte a diferentes tamanhos de tela e dispositivos, melhorando a usabilidade e a experiência do usuário. Além disso, foram utilizados componentes e classes do Bootstrap para acelerar o desenvolvimento e manter a consistência visual em todas as páginas.
+
+### **Outras Considerações**
+- **Integração:** A arquitetura do projeto foi desenvolvida para garantir uma integração fluida entre o banco de dados, a API e a interface do usuário, facilitando a manutenção e a escalabilidade do sistema.
+- **Segurança:** Medidas de segurança são implementadas na API para garantir o funcionamento correto dos endpoints.
 
 ---
 
-## **Roteiro**
-[Trello de Gerenciamento de etapas](https://trello.com/invite/b/66df81376f95a28c3d95be36/ATTIc2a800e06ddbc3e3669f7e63b252fd0553F48520/projeto-final-net)
+## **Como Rodar o Projeto**
 
-### **Semana 1:**
+### **1. Clonar o Repositório**
+- Acesse o repositório do GitHub e clone-o:
+  ```bash
+  git clone https://github.com/xzxjesse/blogDivulgacaoCientifica.git
+  ```
+- Navegue até o diretório do projeto:
+  ```bash
+  cd blogDivulgacaoCientifica
+  ```
 
-#### **09/09 - Configuração Inicial**
-- Documentar proposta. ✔️
-- Criar WebForms e organizar pastas. ✔️
+### **2. Configurar o Banco de Dados**
+- **Criar o Banco de Dados**
+  - Execute o script `ConectaCiencia.sql` no SQL Server Management Studio (SSMS) para criar o banco e tabelas.
+  
+- **Popular o Banco de Dados**
+  - Execute o script `preenchimentoBD.sql` no SSMS para adicionar dados iniciais.
 
-#### **10/09 - Página Sobre**
-- Criar o repositório no GitHub. ✔️
-- Configurar SQL Server e tabelas. ✔️
-- Criar backlog de User Stories da Sprint01. ✔️
-- Desenvolver Figma da página Sobre. ✔️
-- Adicionar informações sobre o blog. ✔️
+### **3. Rodar a API**
+- Abra o projeto da API em uma IDE.
+- **Alterar a String de Conexão**
+  - No arquivo `appsettings.json`, ajuste a string de conexão na seção `ConnectionStrings`:
+    ```json
+    "ConnectionStrings": {
+        "conexao": "Server=JE_EVE\\MSSQLSERVER01;Database=ConectaCiencia;Integrated Security=true;"
+    }
+    ```
+  
+- **Instalar Dependências**
+  - No Console do Gerenciador de Pacotes, execute:
+    ```bash
+    dotnet restore
+    ```
 
-#### **11/09 - Feed de Artigos**
-- Desenvolver Figma da página Feed. ✔️
-- Conectar o feed ao banco de dados e listar artigos cronologicamente. ✔️
+- **Iniciar a API**
+  - Pressione `F5` ou clique em "Run" para iniciar a API.
 
-#### **12/09 - Filtros**
-- Implementar filtro por categoria. ✔️
-- Implementar filtro por palavra chave. ✔️
+### **4. Rodar os Web Forms**
+- Abra o projeto Web Forms em uma IDE e inicie-o pressionando `F5`.
 
-#### **13/09 - Formulário Sugestão de Tema**
-- Implementar filtro por data. ✔️
-- Desenvolver Figma da página Sugestão de Tema. ✔️
-- Adicionar campos de contato (nome e e-mail). ✔️
-- Adicionar campo para conteúdo (descrição da sugestão). ✔️
-- Armazenar sugestões no banco de dados. ✔️
+### **5. Acessar o Aplicativo**
+- Acesse as funcionalidades do aplicativo no navegador, usando as URLs definidas nas configurações.
 
-### **Semana 2:**
-
-#### **16/09 - Formulário Sugestão de Artigo**
-- Criar backlog de User Stories da Sprint02 e Sprint03. ✔️
-- Estilizar formulários. ✔️
-- RN ativação do botão. ✔️
-- Desenvolver Figma da página Sugestão de Artigo. ✔️
-- Adicionar campos de contato (nome e e-mail), título e conteúdo. ✔️
-- Armazenar sugestões no banco de dados. ✔️
-- Criar a API. ✔️
-
----
-#### Fim do MVP e Início de Incrementos
----
-
-#### **18/09 - API**
-- Implementar os endpoints. ✔️
-- Desenvolver Figma da página de Acesso. ✔️
-- Desenvolver Figma da página de Cadastro. ✔️
-- Desenvolver Figma da página de Perfil. ✔️
-- Desenvolver Figma da página de Meus Artigos. ✔️
-- Desenvolver Figma da página de Publicação. ✔️
-- Desenvolver Figma da página de Edição. ✔️
-- Adequar banco de dados para Login/Singin. ✔️
-
-#### **19/09 - Autenticação**
-- Criar end point de Cadastro. ✔️
-- Criar end point de Acesso. ✔️
-- Criar página de acesso com campos de e-mail e senha. ✔️
-- Criar página de cadastro com nome, e-mail e senha. ✔️
-
-#### **20/09 - Página de Meus Artigos**
-- Estilizar páginas de acesso/cadastro. ✔️
-- Redirecionar páginas de acesso/cadastro. ✔️
-
-#### **21/09 e 22/09 - Listar, Editar e Apagar Publicação**
-- Página de perfil. ✔️
-- Página de meus artigos. ✔️
-- Listar artigos publicados pelo usuário conectado. ✔️ 
-- Adicionar campos de título, conteúdo e categoria para publicação. ✔️
-- Armazenar publicações no banco de dados. ✔️
-- Implementar edição de artigos com campos pré preenchidos. ✔️
-- Implementar exclusão de artigos publicados pelo usuário. ✔️
-
-### **Semana 3:**
-
-#### **23/09 - Testes**
-- Teste unitários API. ✔️
-
-#### **24/09 - Documentação**
-- Preparar documentação da API.
-- Preparar documentação do WebForms.
-
-#### **25/09 - Preparo da Apresentação Final**
-- Revisar o projeto.
-- Preparar a demonstração para a apresentação final.
+### **Considerações Finais**
+- **Erro de Conexão:** Verifique a string de conexão no arquivo da API se houver problemas.
+- **Documentação:** Consulte a documentação do projeto para mais informações.
