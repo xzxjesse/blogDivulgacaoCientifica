@@ -88,6 +88,6 @@
 - Documentar Cronograma. ✔️
 
 #### **25/09 - Preparo da Apresentação Final**
-- Revisar o projeto.
-- Preparar PowerPoint baseado nas dumentações. 
-- Preparar o Banco de Dados para demonstração.
+- Revisar o projeto. ✔️
+- Preparar PowerPoint baseado nas dumentações. ✔️
+- Preparar o Banco de Dados para demonstração. ✔️

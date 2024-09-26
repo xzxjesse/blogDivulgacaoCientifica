@@ -1,3 +1,21 @@
+-- Limpar tabelas
+USE ConectaCiencia;
+GO
+
+-- Apagar os dados de todas as tabelas
+DELETE FROM FormularioTema;
+DELETE FROM FormularioArtigo;
+DELETE FROM Artigos;
+DELETE FROM Usuarios;
+DELETE FROM Categorias;
+
+-- Reiniciar os IDs das tabelas
+DBCC CHECKIDENT ('FormularioTema', RESEED, 0);
+DBCC CHECKIDENT ('FormularioArtigo', RESEED, 0);
+DBCC CHECKIDENT ('Artigos', RESEED, 0);
+DBCC CHECKIDENT ('Usuarios', RESEED, 0);
+DBCC CHECKIDENT ('Categorias', RESEED, 0);
+
 -- Dados gerados pelo ChatGPT
 -- Inserção de Categorias
 INSERT INTO Categorias (nome_categoria) 
@@ -56,24 +74,6 @@ VALUES
     ('2024-03-01T09:00:00', 'A Origem do Universo: Uma Revisão das Teorias Cosmológicas', 
      'Neste artigo, revisamos as principais teorias sobre a origem do universo, desde o Big Bang até teorias mais recentes como o modelo do multiverso. Analisamos como as evidências astronômicas e experimentais sustentam ou contestam essas teorias e discutimos as implicações para o futuro da cosmologia. O artigo também explora como diferentes culturas e tradições entenderam a origem do cosmos e o impacto dessas visões sobre a ciência moderna.', 
      'João Silva', (SELECT id_categoria FROM Categorias WHERE nome_categoria = 'Astronomia'), 1);  -- João
-
--- Limpar tabelas
-USE ConectaCiencia;
-GO
-
--- Apagar os dados de todas as tabelas
-DELETE FROM FormularioTema;
-DELETE FROM FormularioArtigo;
-DELETE FROM Artigos;
-DELETE FROM Usuarios;
-DELETE FROM Categorias;
-
--- Reiniciar os IDs das tabelas
-DBCC CHECKIDENT ('FormularioTema', RESEED, 0);
-DBCC CHECKIDENT ('FormularioArtigo', RESEED, 0);
-DBCC CHECKIDENT ('Artigos', RESEED, 0);
-DBCC CHECKIDENT ('Usuarios', RESEED, 0);
-DBCC CHECKIDENT ('Categorias', RESEED, 0);
 
 -- Verificar
 SELECT * FROM FormularioTema;
