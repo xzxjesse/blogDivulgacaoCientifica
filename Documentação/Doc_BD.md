@@ -16,7 +16,7 @@
 
 ## Introdução
 
-O banco de dados **ConectaCiencia**, desenvolvido no SQL Server é projetado para gerenciar usuários, categorias de artigos científicos, sugestões de temas e artigos submetidos por usuários.
+O banco de dados **ConectaCiencia**, desenvolvido no **SQL Server** é projetado para gerenciar usuários, categorias de artigos científicos, sugestões de temas e artigos submetidos por usuários.
 
 ## Estrutura do Banco de Dados
 

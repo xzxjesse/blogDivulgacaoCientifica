@@ -12,7 +12,7 @@
 
 ## Conecta Ciencia API
 
-A **Conecta Ciencia API** é uma **API Web em ASP.NET Core** baseada no padrão MVC, que fornece endpoints para acessar e manipular tabelas de categorias, artigos, formulários de sugestões e usuários no banco de dados. Seus endpoints são consumidos pelo **WebForms do blog Conecta Ciência**, e permite a integração entre as interfaces do blog e os dados. A API segue os princípios RESTful, utilizando **JSON** como formato para a requisições e as respostas.
+A **Conecta Ciencia API** é uma **API Web em ASP.NET Core** baseada no padrão **MVC**, que fornece endpoints para acessar e manipular tabelas de categorias, artigos, formulários de sugestões e usuários no banco de dados. Seus **endpoints são consumidos pelo WebForms** do blog Conecta Ciência, permitindo a integração entre as interfaces do blog e os dados. A API segue os **princípios RESTful**, utilizando **JSON como formato** para as requisições e respostas. Foi desenvolvida com **ADO.NET** e utiliza **parameters para prevenir SQL injection**, garantindo a segurança nas consultas e manipulações de dados.
 
 ---
 

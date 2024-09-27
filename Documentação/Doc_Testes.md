@@ -13,7 +13,7 @@
 
 ## Introdução
 
-Este documento descreve a cobertura de testes para a **ConectaCienciaAPI**. Foram implementados 12 testes automatizados que validam as operações dos controladores `CategoriaController`, `FeedController`, `FormulariosController` e `LoginController`. 
+A cobertura de testes para a **ConectaCienciaAPI** implementa 12 **testes automatizados com xUnit** que validam as operações dos controladores `CategoriaController`, `FeedController`, `FormulariosController` e `LoginController`. 
 
 ## Testes Implementados
 

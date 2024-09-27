@@ -1,6 +1,7 @@
 # Documentação do WebForms
 
 ## Sumário
+- [Introdução](#introducao)
 - [Estrutura do Projeto](#estrutura-do-projeto)
   - [Arquivo Principal](#arquivo-principal)
   - [Páginas Públicas](#páginas-públicas)
@@ -10,6 +11,11 @@
 - [Estrutura do WebForms](#estrutura-do-webforms)
 
 ---
+
+## Introdução
+Esta documentação apresenta uma visão geral da **estrutura e funcionalidades** do projeto WebForms do blog Conecta Ciência. O WebForms é responsável por **fornecer a interface do usuário que interage diretamente com a API Conecta Ciência**, permitindo a visualização, criação e gerenciamento de artigos, além do envio de sugestões e gerenciamento de contas de usuário.
+
+A seguir há detalhes sobre a organização do projeto, incluindo suas páginas principais, **funcionalidades públicas e restritas**, bem como as conexões com a API para manipulação de dados. Este documento serve como um guia para compreender ou modificar a estrutura e o funcionamento do WebForms.
 
 ## Estrutura do Projeto
 
