@@ -1,7 +1,3 @@
-Aqui está o texto atualizado com as melhorias estruturadas no documento:
-
----
-
 # **Projeto Blog de Divulgação Científica**
 
 ## **Sumário**
