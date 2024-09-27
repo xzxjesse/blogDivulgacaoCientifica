@@ -2,13 +2,13 @@
 
 ## Sumário
 - [Introdução](#introdução)
+- [Estrutura do WebForms](#estrutura-do-webforms)
 - [Estrutura do Projeto](#estrutura-do-projeto)
   - [Arquivo Principal](#arquivo-principal)
   - [Páginas Públicas](#páginas-públicas)
   - [Acesso](#acesso)
   - [Páginas Logadas](#páginas-logadas)
 - [Informações Gerais](#informações-gerais)
-- [Estrutura do WebForms](#estrutura-do-webforms)
 
 ---
 
@@ -16,6 +16,21 @@
 Esta documentação apresenta uma visão geral da **estrutura e funcionalidades** do projeto WebForms do blog Conecta Ciência. O WebForms é responsável por **fornecer a interface do usuário que interage diretamente com a API Conecta Ciência**, permitindo a visualização, criação e gerenciamento de artigos, além do envio de sugestões e gerenciamento de contas de usuário.
 
 A seguir há detalhes sobre a organização do projeto, incluindo suas páginas principais, **funcionalidades públicas e restritas**, bem como as conexões com a API para manipulação de dados. Este documento serve como um guia para compreender ou modificar a estrutura e o funcionamento do WebForms.
+
+---
+
+## Estrutura do WebForms
+
+O projeto é estruturado seguindo o padrão das soluções WebForms, apresentando as seguintes características:
+
+- **Model**: 
+  - Definições que são baseadas no banco de dados e na API.
+
+- **Estrutura do WebForms**:
+  - **ASPX**: Interface que segue o padrão baseado na Master Page, utilizando Bootstrap para uma estilização padronizada e agradável. Scripts simples de JavaScript são aplicados conforme necessário.
+  - **ASPX.CS**: Contém a lógica de negócios e os serviços que se conectam à API, facilitando a manipulação dos dados.
+
+---
 
 ## Estrutura do Projeto
 
@@ -77,16 +92,3 @@ A seguir há detalhes sobre a organização do projeto, incluindo suas páginas 
 - **Observações**:
   - Não há verificação de e-mails.
   - Não existem critérios definidos para senhas.
-
----
-
-## Estrutura do WebForms
-
-O projeto é estruturado seguindo o padrão das soluções WebForms, apresentando as seguintes características:
-
-- **Model**: 
-  - Definições que são baseadas no banco de dados e na API.
-
-- **Estrutura do WebForms**:
-  - **ASPX**: Interface que segue o padrão baseado na Master Page, utilizando Bootstrap para uma estilização padronizada e agradável. Scripts simples de JavaScript são aplicados conforme necessário.
-  - **ASPX.CS**: Contém a lógica de negócios e os serviços que se conectam à API, facilitando a manipulação dos dados.
