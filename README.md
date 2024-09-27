@@ -1,3 +1,7 @@
+Aqui está o texto atualizado com as melhorias estruturadas no documento:
+
+---
+
 # **Projeto Blog de Divulgação Científica**
 
 ## **Sumário**
@@ -7,13 +11,19 @@
    - [Web Forms](#web-forms)
    - [Estilo](#estilo)
    - [Outras Considerações](#outras-considerações)
-2. [Como Rodar o Projeto](#como-rodar-o-projeto)
+2. [Possíveis Melhorias](#possíveis-melhorias)
+   - [Administração](#administração)
+   - [Pessoalidade](#pessoalidade)
+   - [Interação](#interação)
+   - [Autenticação](#autenticação)
+   - [Dispositivos](#dispositivos)
+3. [Como Rodar o Projeto](#como-rodar-o-projeto)
    - [1. Clonar o Repositório](#1-clonar-o-repositório)
    - [2. Configurar o Banco de Dados](#2-configurar-o-banco-de-dados)
    - [3. Rodar a API](#3-rodar-a-api)
    - [4. Rodar os Web Forms](#4-rodar-os-web-forms)
    - [5. Acessar o Aplicativo](#5-acessar-o-aplicativo)
-   - [Considerações Finais](#considerações-finais)
+4. [Considerações Finais](#considerações-finais)
 
 ---
 
@@ -29,15 +39,40 @@ A API é responsável pela comunicação entre o frontend e o backend, permitind
 
 ### **Web Forms**
 **ASP.NET Web Forms**  
-A interface do usuário é construída utilizando Web Forms, permitindo a criação de páginas dinâmicas e interativas. Essa abordagem facilita a implementação de lógica e de eventos nas páginas. O uso de Web Forms também permite uma integração fluida com a API, garantindo uma experiência de usuário responsiva. [Mais sobre os Web Forms](https://github.com/xzxjesse/blogDivulgacaoCientifica/blob/main/Documentação/Doc_WebForms.md).
+A interface do usuário é construída utilizando Web Forms, permitindo a criação de páginas dinâmicas e interativas. Essa abordagem facilita a implementação de lógica e de eventos nas páginas. O uso de Web Forms também permite uma integração fluida com a API, garantindo uma experiência de usuário responsiva. [Mais sobre o Web Forms](https://github.com/xzxjesse/blogDivulgacaoCientifica/blob/main/Documentação/Doc_WebForms.md).
 
 ### **Estilo**
 **Bootstrap**  
-O design do projeto é baseado no framework Bootstrap, que proporciona um layout responsivo e moderno. Com o Bootstrap, é possível garantir que a aplicação se adapte a diferentes tamanhos de tela e dispositivos, melhorando a usabilidade e a experiência do usuário. Além disso, foram utilizados componentes e classes do Bootstrap para acelerar o desenvolvimento e manter a consistência visual em todas as páginas. [Bootstrap](https://getbootstrap.com).
+O design do projeto é baseado no framework Bootstrap, que proporciona um layout responsivo e moderno. Com o Bootstrap, é possível garantir que a aplicação se adapte a diferentes tamanhos de tela e dispositivos, melhorando a usabilidade e a experiência do usuário. Além disso, foram utilizados componentes e classes do Bootstrap para acelerar o desenvolvimento e manter a consistência visual em todas as páginas. [Mais sobre o Bootstrap](https://getbootstrap.com).
 
 ### **Outras Considerações**
 - **Integração:** A arquitetura do projeto foi desenvolvida para garantir uma integração fluida entre o banco de dados, a API e a interface do usuário, facilitando a manutenção e a escalabilidade do sistema.
 - **Testes:** Medidas de segurança são implementadas na API para garantir o funcionamento correto dos endpoints. [Mais sobre os testes](https://github.com/xzxjesse/blogDivulgacaoCientifica/blob/main/Documentação/Doc_Testes.md).
+
+---
+
+## **Possíveis Melhorias**
+
+### **Administração**
+- **Role de Admin:** Implementar um nível de acesso administrativo, permitindo que administradores tenham controle sobre o sistema.
+- **Visualização de Sugestões:** Criar uma página para que os administradores possam visualizar as sugestões enviadas nos formulários.
+- **Aceitação de Artigos:** Permitir que o administrador aceite ou recuse artigos enviados por meio dos formulários de sugestão.
+- **Excluir ou Validar Artigos de Outros Usuários:** Administradores poderão excluir ou validar artigos postados por outros usuários.
+
+### **Pessoalidade**
+- **Indicação de Artigos:** Implementar um sistema que recomende artigos com base no consumo ou nas publicações feitas pelo usuário, proporcionando uma experiência personalizada.
+
+### **Interação**
+- **Comentários, Curtir e Compartilhar:** Permitir que os usuários possam comentar, curtir e compartilhar os artigos diretamente no blog, aumentando a interação entre os usuários.
+
+### **Autenticação**
+- **Hash na Senha:** Implementar hash para senhas armazenadas no banco de dados, garantindo maior segurança.
+- **Método POST no Login:** Alterar o método de envio de login de GET para POST para melhorar a segurança das credenciais do usuário.
+- **Verificação de Domínio de E-mails:** Implementar uma verificação de domínio para os e-mails de registro, garantindo que sejam válidos.
+- **Critérios para Senha:** Adicionar critérios mínimos para a criação de senhas, como número mínimo de caracteres, caracteres especiais, etc.
+
+### **Dispositivos**
+- **Versão Mobile:** Desenvolver uma versão otimizada para dispositivos móveis, garantindo uma boa experiência de usuário em smartphones e tablets.
 
 ---
 
@@ -85,6 +120,8 @@ O design do projeto é baseado no framework Bootstrap, que proporciona um layout
 ### **5. Acessar o Aplicativo**
 - Acesse as funcionalidades do aplicativo no navegador, usando as URLs definidas nas configurações.
 
-### **Considerações Finais**
+---
+
+## **Considerações Finais**
 - **Erro de Conexão:** Verifique a string de conexão no arquivo da API se houver problemas.
 - **Documentação:** Consulte a documentação do projeto para mais informações.
