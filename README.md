@@ -19,8 +19,7 @@
    - [3. Rodar a API](#3-rodar-a-api)
    - [4. Rodar os Web Forms](#4-rodar-os-web-forms)
    - [5. Acessar o Aplicativo](#5-acessar-o-aplicativo)
-4. [Considerações Finais](#considerações-finais)
-
+     
 ---
 
 ## **Arquitetura do Projeto**
