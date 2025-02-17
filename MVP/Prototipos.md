@@ -4,7 +4,7 @@
 
 ## Fluxo sem login
 
-![Fluxo sem login](../MVP/imgPrototipos/Fluxo_semLogin.png)
+![Fluxo sem login](../MVP/imgPrototipos/Fluxo_semlogin.png)
 
 ### Feed
 ![Feed](../MVP/imgPrototipos/Feed.png)
@@ -23,7 +23,7 @@
 
 ## Fluxo com login
 
-![Fluxo sem login](../MVP/imgPrototipos/Fluxo_comLogin.png)
+![Fluxo sem login](../MVP/imgPrototipos/Fluxo_comlogin.png)
 
 ### Perfil
 ![Perfil](../MVP/imgPrototipos/Perfil.png)
