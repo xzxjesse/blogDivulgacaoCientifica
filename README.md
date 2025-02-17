@@ -7,18 +7,6 @@
    - [Web Forms](#web-forms)
    - [Estilo](#estilo)
    - [Outras Considerações](#outras-considerações)
-2. [Possíveis Melhorias](#possíveis-melhorias)
-   - [Administração](#administração)
-   - [Pessoalidade](#pessoalidade)
-   - [Interação](#interação)
-   - [Autenticação](#autenticação)
-   - [Dispositivos](#dispositivos)
-3. [Como Rodar o Projeto](#como-rodar-o-projeto)
-   - [1. Clonar o Repositório](#1-clonar-o-repositório)
-   - [2. Configurar o Banco de Dados](#2-configurar-o-banco-de-dados)
-   - [3. Rodar a API](#3-rodar-a-api)
-   - [4. Rodar os Web Forms](#4-rodar-os-web-forms)
-   - [5. Acessar o Aplicativo](#5-acessar-o-aplicativo)
      
 ---
 
