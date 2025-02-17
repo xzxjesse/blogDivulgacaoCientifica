@@ -1,0 +1,16 @@
+site_name: ConectaCiência
+
+nav:
+  - Documentação Banco de Dados:
+      - "Doc_BD.md"
+      - Estrutura do Banco de Dados: "estruturaBD.md"
+  - Documentação API:
+      - "Doc_API.md"
+      - Documentação dos Testes na API: "Doc_Testes.md"
+  - Documentação WebForms: "Doc_WebForms.md"
+  - Documentação do MVP:
+      - Protótipos: "Prototipos.md"
+      - Cronograma: "CronogramaMVP.md"
+
+theme:
+  name: material
