@@ -1,5 +1,7 @@
 site_name: ConectaCiência
 
+docs_dir: .
+
 nav:
   - Documentação Banco de Dados:
       - "Doc_BD.md"
