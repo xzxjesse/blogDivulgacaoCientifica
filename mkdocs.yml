@@ -4,6 +4,10 @@ docs_dir: docs
 site_dir: site
 
 nav:
+  - Arquitetura do Projeto: "index.md"
+  - MVP:
+      - Cronograma: "MVP/Doc_CronogramaMVP.md"
+      - Protótipos - Figma: "MVP/Prototipos.md"
   - Documentação Banco de Dados:
       - "Doc_BD.md"
       - Estrutura do Banco de Dados: "estruturaBD.md"
@@ -11,9 +15,6 @@ nav:
       - "Doc_API.md"
       - Documentação dos Testes na API: "Doc_Testes.md"
   - Documentação WebForms: "Doc_WebForms.md"
-  - Documentação do MVP:
-      - Protótipos: "Prototipos.md"
-      - Cronograma: "CronogramaMVP.md"
 
 theme:
   name: material
