@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj": {}
+    "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj": {
+    "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
         "projectName": "ConectaCienciaAPI",
-        "projectPath": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
+        "projectPath": "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj",
         "packagesPath": "C:\\Users\\jeeve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\ConectaCienciaAPI\\obj\\",
+        "outputPath": "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\ConectaCienciaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,14 +110,14 @@
         }
       }
     },
-    "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj": {
+    "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj",
+        "projectUniqueName": "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj",
         "projectName": "TesteAPI_ConectaCiencia",
-        "projectPath": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj",
+        "projectPath": "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\TesteAPI_ConectaCiencia.csproj",
         "packagesPath": "C:\\Users\\jeeve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\obj\\",
+        "outputPath": "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\TesteAPI_ConectaCiencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -139,8 +139,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj": {
-                "projectPath": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj"
+              "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj": {
+                "projectPath": "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\ConectaCienciaAPI\\ConectaCienciaAPI\\ConectaCienciaAPI.csproj"
               }
             }
           }

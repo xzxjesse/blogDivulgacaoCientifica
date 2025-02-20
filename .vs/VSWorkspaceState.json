@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ProjetoFinal-DotNET"
+    "\\ConectaCienciaAPI",
+    "\\ConectaCienciaAPI\\ConectaCienciaAPI"
   ],
-  "SelectedNode": "\\ProjetoFinal-DotNET\\Web.config",
+  "SelectedNode": "\\ConectaCienciaAPI\\ConectaCienciaAPI\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

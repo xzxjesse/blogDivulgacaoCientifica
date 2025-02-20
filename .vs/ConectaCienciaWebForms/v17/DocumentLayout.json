@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\",
+  "WorkspaceRootPath": "C:\\Users\\jeeve\\Documents\\blogDivulgacaoCientifica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|c:\\users\\jeeve\\documents\\conectaciencia\\projetofinal-dotnet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\Documents\\conectaCiencia\\projetofinal-dotnet\\meusartigos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\meusartigos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\MeusArtigos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\Documents\\conectaCiencia\\projetofinal-dotnet\\meusartigos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\meusartigos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\MeusArtigos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|C:\\Users\\jeeve\\Documents\\conectaCiencia\\projetofinal-dotnet\\publicar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{DF16A869-4F7B-4FAE-997B-CB4FE5F94161}|ProjetoFinal-DotNET\\ProjetoFinal-DotNET.csproj|solutionrelative:projetofinal-dotnet\\publicar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\Publicar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,22 +53,20 @@
               "DocumentIndex": 0,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\Web.config",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Web.config",
+              "RelativeDocumentMoniker": "..\\conectaCiencia\\ProjetoFinal-DotNET\\Web.config",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\Web.config",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAADmAAAAAAAAAA==",
+              "RelativeToolTip": "..\\conectaCiencia\\ProjetoFinal-DotNET\\Web.config",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-02-17T18:32:59.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T18:32:59.4Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MeusArtigos.aspx.cs",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\MeusArtigos.aspx.cs",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\MeusArtigos.aspx.cs",
+              "RelativeDocumentMoniker": "..\\conectaCiencia\\ProjetoFinal-DotNET\\MeusArtigos.aspx.cs",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\MeusArtigos.aspx.cs",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\MeusArtigos.aspx.cs",
+              "RelativeToolTip": "..\\conectaCiencia\\ProjetoFinal-DotNET\\MeusArtigos.aspx.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAwwGwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T21:47:24.721Z"
@@ -82,9 +76,9 @@
               "DocumentIndex": 2,
               "Title": "MeusArtigos.aspx",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\MeusArtigos.aspx",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\MeusArtigos.aspx",
+              "RelativeDocumentMoniker": "..\\conectaCiencia\\ProjetoFinal-DotNET\\MeusArtigos.aspx",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\MeusArtigos.aspx",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\MeusArtigos.aspx",
+              "RelativeToolTip": "..\\conectaCiencia\\ProjetoFinal-DotNET\\MeusArtigos.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-09-25T21:13:57.783Z"
@@ -94,9 +88,9 @@
               "DocumentIndex": 3,
               "Title": "Publicar.aspx",
               "DocumentMoniker": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\Publicar.aspx",
-              "RelativeDocumentMoniker": "ProjetoFinal-DotNET\\Publicar.aspx",
+              "RelativeDocumentMoniker": "..\\conectaCiencia\\ProjetoFinal-DotNET\\Publicar.aspx",
               "ToolTip": "C:\\Users\\jeeve\\Documents\\conectaCiencia\\ProjetoFinal-DotNET\\Publicar.aspx",
-              "RelativeToolTip": "ProjetoFinal-DotNET\\Publicar.aspx",
+              "RelativeToolTip": "..\\conectaCiencia\\ProjetoFinal-DotNET\\Publicar.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-09-24T22:10:37.008Z"
