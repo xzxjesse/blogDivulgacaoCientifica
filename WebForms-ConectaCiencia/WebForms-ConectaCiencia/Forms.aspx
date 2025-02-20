@@ -67,6 +67,11 @@
     </div>
 
     <script type="text/javascript">
+        function validarEmail(email) {
+            var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return regex.test(email);
+        }
+
         function mostrarMensagem(idAlert, mensagem) {
             var alertSuccess = document.getElementById('alertSuccess');
             var alertError = document.getElementById('alertError');
@@ -94,14 +99,18 @@
 
         function validarCamposTema() {
             var nomeTema = document.getElementById('<%= txtNomeTema.ClientID %>').value.trim();
-            var emailTema = document.getElementById('<%= txtEmailTema.ClientID %>').value.trim();
-            var tema = document.getElementById('<%= txtTema.ClientID %>').value.trim();
-            var categoriaTema = document.getElementById('<%= ddlCategoriaTema.ClientID %>').value;
+        var emailTema = document.getElementById('<%= txtEmailTema.ClientID %>').value.trim();
+        var tema = document.getElementById('<%= txtTema.ClientID %>').value.trim();
+        var categoriaTema = document.getElementById('<%= ddlCategoriaTema.ClientID %>').value;
 
-            var botaoEnviarTema = document.getElementById('<%= BtnEnviarTema.ClientID %>');
+        var botaoEnviarTema = document.getElementById('<%= BtnEnviarTema.ClientID %>');
 
             if (nomeTema !== "" && emailTema !== "" && tema !== "" && categoriaTema !== "") {
-                botaoEnviarTema.disabled = false;
+                if (validarEmail(emailTema)) {
+                    botaoEnviarTema.disabled = false;
+                } else {
+                    botaoEnviarTema.disabled = true;
+                }
             } else {
                 botaoEnviarTema.disabled = true;
             }
@@ -117,7 +126,11 @@
             var botaoEnviar = document.getElementById('<%= BtnEnviarArtigo.ClientID %>');
 
             if (nome !== "" && email !== "" && titulo !== "" && conteudo !== "" && categoria !== "") {
-                botaoEnviar.disabled = false;
+                if (validarEmail(email)) {
+                    botaoEnviar.disabled = false;
+                } else {
+                    botaoEnviar.disabled = true;
+                }
             } else {
                 botaoEnviar.disabled = true;
             }
