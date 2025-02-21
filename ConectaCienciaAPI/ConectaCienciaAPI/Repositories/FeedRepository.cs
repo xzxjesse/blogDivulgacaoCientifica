@@ -24,21 +24,21 @@ namespace ConectaCienciaAPI.Repositories
         {
             var artigos = new List<ArtigoModel>();
             var sql = @"SELECT a.*, c.nome_categoria, u.nome, u.id_usuario
-                        FROM Artigos a
-                        JOIN Categorias c ON a.id_categoria = c.id_categoria
-                        JOIN Usuarios u ON a.id_usuario = u.id_usuario
-                        WHERE 1=1";
+                FROM Artigos a
+                JOIN Categorias c ON a.id_categoria = c.id_categoria
+                JOIN Usuarios u ON a.id_usuario = u.id_usuario
+                WHERE 1=1";
             var parameters = new List<SqlParameter>();
 
             if (!string.IsNullOrEmpty(textoPesquisa))
             {
-                sql += " AND (a.titulo LIKE @textoPesquisa OR a.conteudo LIKE @textoPesquisa)";
+                sql += " AND (a.titulo COLLATE Latin1_General_CI_AI LIKE @textoPesquisa OR a.conteudo COLLATE Latin1_General_CI_AI LIKE @textoPesquisa)";
                 parameters.Add(new SqlParameter("@textoPesquisa", "%" + textoPesquisa + "%"));
             }
 
             if (!string.IsNullOrEmpty(nomeCategoria))
             {
-                sql += " AND c.nome_categoria LIKE @nomeCategoria";
+                sql += " AND c.nome_categoria COLLATE Latin1_General_CI_AI LIKE @nomeCategoria";
                 parameters.Add(new SqlParameter("@nomeCategoria", "%" + nomeCategoria + "%"));
             }
 
