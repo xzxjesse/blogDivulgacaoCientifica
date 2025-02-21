@@ -51,14 +51,6 @@
                 : "A senha deve ter pelo menos 8 caracteres, incluindo uma letra maiúscula, uma letra minúscula e um número.";
 
             botaoCadastrar.disabled = !(nome && emailValido && senhaValida);
-
-            console.log(
-                "Nome:", nome,
-                "Email:", email,
-                "Email válido:", emailValido,
-                "Senha:", senha,
-                "Botão habilitado:", !botaoCadastrar.disabled
-            ); // Debug
         }
 
         function validarSenha(senha) {
@@ -70,7 +62,6 @@
             var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             return regex.test(email);
         }
-
     </script>
 
 </asp:Content>

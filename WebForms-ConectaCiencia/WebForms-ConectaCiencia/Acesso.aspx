@@ -17,13 +17,15 @@
                 <asp:Button ID="btnAcesso" runat="server" Text="Entrar" CssClass="btn btn-primary" OnClick="btnAcesso_Click" Enabled="false" />
             </div>
 
+            <div class="text-center mt-3">
+                <p>Não tem uma conta? <a href="Cadastro.aspx">Cadastre-se aqui</a></p>
+                <p><a href="EsqueciSenha.aspx">Esqueci a senha</a></p>
+            </div>
+
             <div>
                 <asp:Label ID="lblMensagem" runat="server" CssClass="text-danger" Visible="false"></asp:Label>
             </div>
 
-            <div class="text-center mt-3">
-                <p>Não tem uma conta? <a href="Cadastro.aspx">Cadastre-se aqui</a></p>
-            </div>
         </div>
     </div>
 
